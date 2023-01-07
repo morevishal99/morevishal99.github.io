@@ -140,7 +140,8 @@ const Project = () => {
                         <Image w='full' src={Yoox} alt="Yoox" />
                         <Box p='6'>
                             <Text fontWeight="bold" fontSize={{ base: 'xl', md: '2xl', lg: '3xl' }}>Yoox</Text>
-                            <Box fontSize={{ base: 'sm', md: 'md', lg: 'md' }} mb={{ lg: 6 }}>PharmEasy is help you take it easy! PharmEasy is one of India's most trusted online pharmacy & medical stores offering 1 lakh+ pharmaceutical and healthcare products and Lab test. </Box>
+                            <Box fontSize={{ base: 'sm', md: 'md', lg: 'md' }} mb={{ lg: 6 }}>
+                            Yoox is an online clothing and fashion store that specializes in providing high-end designer clothing and accessories. They offer a wide variety of items from both established and emerging designers from around the world.                                 </Box>
                             <Box display={{ base: "column", sm: "column", lg: "flex" }} alignItems='baseline' >
                                 <Badge borderRadius='full' px='2' >
                                     TECH STACK
