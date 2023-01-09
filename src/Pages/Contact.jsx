@@ -20,7 +20,7 @@ export default function Contact ( ){
     }
     return(
         <>
-        <Text style={Theme === 'light' ? light : dark} textAlign='center'  fontSize={{base : '20px',md: '22px', lg : '40px'}} fontWeight={{base : '600', md : '700'}}>Contact</Text>
+        <Text  textAlign='center' color='goldenrod'  fontSize={{base : '20px',md: '22px', lg : '40px'}} fontWeight={{base : '600', md : '700'}}>Contact</Text>
         <Box style={Theme === 'light' ? light : dark} p={{base : '10px', md : '30px'}} backgroundColor="" color="black" mt='10px' >
             <Text textAlign='center' fontSize={{base : '13px', md : '16px'}}>Find Me Around The Web</Text>
             <Flex w={{base :'100%', md : '70%', lg : '50%'}} m='auto' justifyContent='space-between' fontSize={{base : '22px', md : '26px', lg :'30px'}} mt='10px'

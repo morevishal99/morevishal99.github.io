@@ -29,8 +29,8 @@ export const Navbar = ({ ProfileRef, AboutRef, SkillsRef, ProjectsRef, ContactRe
     }
     return (
         <>
-            <Box pos='fixed' w='100%' zIndex='99' px={4} style={Theme === 'light' ? light : dark} className='ChackraNavBar' shadow='lg'>
-                <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
+            <Box  pos='fixed' w='100%' zIndex='99' px={4} style={Theme === 'light' ? light : dark} className='ChackraNavBar' shadow='lg'>
+                <Flex h={16} alignItems={'center'} justifyContent={'space-between'} >
                     <IconButton style={Theme === 'light' ? light : dark}
                         size='lg'
                         icon={isOpen ? <CloseIcon /> : <HamburgerIcon fontSize='30px' />}
@@ -43,7 +43,7 @@ export const Navbar = ({ ProfileRef, AboutRef, SkillsRef, ProjectsRef, ContactRe
                             <Image width={{ base: '60px', md: '60px' }} src={logo} />
                         </Box>
                         <Flex as={'nav'} spacing={4} display={{ base: 'none', md: 'flex' }} gap='10px' w={{ base: '', md: '60%', lg: '40%' }}
-                            justifyContent='space-between' alignItems='center' color='' fontWeight='650'>
+                            justifyContent='space-between' alignItems='center' color='goldenrod' fontWeight='650'>
                             <Text onClick={ProfileRef} cursor='pointer'>Home</Text>
                             <Text onClick={AboutRef} cursor='pointer'>About</Text>
                             <Text onClick={SkillsRef} cursor='pointer'>Skills</Text>
@@ -57,8 +57,8 @@ export const Navbar = ({ ProfileRef, AboutRef, SkillsRef, ProjectsRef, ContactRe
                     </Box>
                 </Flex>
                 {isOpen ? (
-                    <Box pb={4} display={{ md: 'none' }} style={Theme === 'light' ? light : dark}>
-                        <Stack as={'nav'} spacing={4} color='#3197' fontWeight='600'>
+                    <Box  pb={4} display={{ md: 'none' }} style={Theme === 'light' ? light : dark}>
+                        <Stack as={'nav'} spacing={4} color='goldenrod' fontWeight='600'>
                             <Text onClick={ProfileRef} cursor='pointer'>Home</Text>
                             <Text onClick={AboutRef} cursor='pointer'>About</Text>
                             <Text onClick={SkillsRef} cursor='pointer'>Skills</Text>

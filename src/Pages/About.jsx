@@ -24,7 +24,7 @@ export default function About() {
   }
   return (
     <>
-       <Text  color='' fontSize={{ base: '22px', md: '22px', lg: '40px' }} fontWeight={{ base: '600', md: '700' }} textAlign='center'>About Me</Text>
+       <Text  fontSize={{ base: '22px', md: '22px', lg: '40px' }} color='goldenrod' fontWeight={{ base: '600', md: '700' }} textAlign='center'>About Me</Text>
       <Center style={Theme === 'light' ? light : dark}>
         <Box style={Theme === 'light' ? light : dark}
           maxW={{ base: '350px', md: '450px', lg: '600px', xl: '800px' }}

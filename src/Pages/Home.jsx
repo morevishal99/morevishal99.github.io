@@ -4,7 +4,7 @@ const Home = () => {
     return (
         <>
             <Box height={{ base: '40px', md: '60px' }}></Box>
-            <Box  mt={100}
+            <Box mt={100}
                 w='100%' h={{
                     base: '450px', md: '400px',
                     lg: "500px", sm: '320px'
@@ -23,8 +23,8 @@ const Home = () => {
                                 <Image mt='-5px' w={{ base: '40px', md: '60px', lg: '85px' }} src="https://cliply.co/wp-content/uploads/2021/02/392102850_EARTH_EMOJI_400px.gif" />
                             </Flex>
 
-                           
-                            <Text fontSize={{ base: '25px', md: '50px', lg: '80px' }} color='' style={{}}> Vishal More</Text>
+
+                            <Text fontSize={{ base: '25px', md: '50px', lg: '80px' }} color='' style={{}}>I Am Vishal More</Text>
                         </Flex>
                         <Text >MERN Stack Developer</Text>
                         <a href="https://drive.google.com/file/d/1t42g2b_cVik65BL7Yni89_JzRYihcs94/view?usp=share_link" ><Button size={{ base: 'sm', md: 'md', lg: 'lg' }} mt={{ base: '10px', md: '0' }} colorScheme='teal' gap={1.5}>Resume <VscCloudDownload color="white" /></Button></a>
