@@ -161,7 +161,7 @@ const Project = () => {
                         </Box>
                         <Flex  gap={10} alignItems="center" mb={5} ml={7}>
                             <a href="https://github.com/morevishal99/potent-toothbrush-7925/tree/main/my_yoox_clone" target="_blank"> <TfiGithub size={35} /></a>
-                            <a href='#' target="_blank"><GrDeploy size={30} /></a>
+                            <a href='https://my-yoox-clone.vercel.app/' target="_blank"><GrDeploy size={30} /></a>
                         </Flex>
                     </Box>
                 </Text>
