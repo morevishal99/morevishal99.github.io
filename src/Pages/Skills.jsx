@@ -6,14 +6,18 @@ import Slider from "react-slick";
 import { Box, Image, Text } from "@chakra-ui/react";
 import { AppContext } from "../Context/Theme";
 
-import css from "./Skillsimages/css.png"
-import github from "./Skillsimages/github.png"
-import html from "./Skillsimages/html.png"
-import javascript from "./Skillsimages/javascript.png"
-import node from "./Skillsimages/node js.png"
-import npm from "./Skillsimages/npm.png"
-import react from "./Skillsimages/react js.png"
-import typescript from "./Skillsimages/typescript.png"
+import css from "./SkillsImages/css.png"
+import github from "./SkillsImages/github.png"
+import git from "./SkillsImages/git.png"
+import html from "./SkillsImages/html5.png"
+import javascript from "./SkillsImages/javascript.png"
+import node from "./SkillsImages/node js.png"
+import npm from "./SkillsImages/npm.png"
+import react from "./SkillsImages/react.png"
+import typescript from "./SkillsImages/typescript.png"
+import mongo from "./SkillsImages/mongodb.png"
+import redux from "./SkillsImages/redux.png"
+import express from "./SkillsImages/express.png"
 
 
 export const AutoPlay = () => {
@@ -71,31 +75,31 @@ export const AutoPlay = () => {
                 <Slider {...settings} style={Theme === 'light' ? light : dark}>
                     <div style={{ display: "flex", width: "50px", height: '150px' }} >
                         <Box p='20px' borderRadius={5} display='flex' flexDirection="column" justifyContent="center" alignItems="center" backgroundColor='#f4f4f4' mr={5}  >
-                            <Image w={{ base: '45px', md: '80px', lg: '80px' }} src={html}  />
+                            <Image  w={{ base: '45px', md: '80px', lg: '80px' }} src={html}  />
                             <Text mt={{ base: '10px', lg: '15px' }}>HTML</Text>
                         </Box>
                     </div>
                     <div style={{ display: "flex", width: "50px", height: '150px' }} >
                         <Box p='20px' borderRadius={5} display='flex' flexDirection="column" justifyContent="center" alignItems="center" backgroundColor='#f4f4f4' mr={5}  >
-                            <Image w={{ base: '45px', md: '80px', lg: '80px' }} src={css} />
+                            <Image  w={{ base: '45px', md: '60px', lg: '60px' }} src={css} />
                             <Text textAlign='center' mt={{ base: '10px', lg: '15px' }}>CSS3</Text>
                         </Box>
                     </div>
                     <div style={{ display: "flex", width: "50px", height: '150px' }} >
                         <Box p='20px' borderRadius={5} display='flex' flexDirection="column" justifyContent="center" alignItems="center" backgroundColor='#f4f4f4' mr={5} >
-                            <Image w={{ base: '45px', md: '80px', lg: '80px' }} src={javascript}  />
+                            <Image  w={{ base: '45px', md: '80px', lg: '80px' }}src={javascript}  />
                             <Text textAlign='center' mt={{ base: '10px', lg: '15px' }}>JavaScript</Text>
                         </Box>
                     </div>
                     <div style={{ display: "flex", width: "50px", height: '150px' }} >
                         <Box p='20px' borderRadius={5} display='flex' flexDirection="column" justifyContent="center" alignItems="center" backgroundColor='#f4f4f4' mr={5} >
-                            <Image w={{ base: '45px', md: '80px', lg: '80px' }} src={react}/>
+                            <Image  w={{ base: '45px', md: '80px', lg: '80px' }} src={react}/>
                             <Text textAlign='center' mt={{ base: '10px', lg: '15px' }}>React.Js</Text>
                         </Box>
                     </div>
                     <div style={{ display: "flex", width: "50px", height: '150px' }} >
                         <Box p='20px' borderRadius={5} display='flex' flexDirection="column" justifyContent="center" alignItems="center" backgroundColor='#f4f4f4' mr={5} >
-                            <Image w={{ base: '45px', md: '80px', lg: '80px' }} src={css}  />
+                            <Image w={{ base: '45px', md: '80px', lg: '80px' }} src={redux}  />
                             <Text textAlign='center' mt={{ base: '10px', lg: '15px' }}>Redux</Text>
                         </Box>
                     </div>
@@ -107,19 +111,19 @@ export const AutoPlay = () => {
                     </div>
                     <div style={{ display: "flex", width: "50px", height: '150px' }} >
                         <Box p='20px' borderRadius={5} display='flex' flexDirection="column" justifyContent="center" alignItems="center" backgroundColor='#f4f4f4' mr={5} >
-                            <Image w={{ base: '45px', md: '80px', lg: '80px' }} src={node} />
+                            <Image w={{ base: '75px', md: '125px', lg: '125px' }} src={node} />
                             <Text textAlign='center' mt={{ base: '10px', lg: '15px' }}>Node.Js</Text>
                         </Box>
                     </div>
                     <div style={{ display: "flex", width: "50px", height: '150px' }} >
                         <Box p='20px' borderRadius={5} display='flex' flexDirection="column" justifyContent="center" alignItems="center" backgroundColor='#f4f4f4' mr={5} >
-                            <Image w={{ base: '45px', md: '80px', lg: '80px' }} src={css}  />
+                            <Image w={{ base: '45px', md: '80px', lg: '80px' }} src={mongo}  />
                             <Text textAlign='center' mt={{ base: '10px', lg: '15px' }}>Mongodb</Text>
                         </Box>
                     </div>
                     <div style={{ display: "flex", width: "50px", height: '150px' }} >
                         <Box p='20px' borderRadius={5} display='flex' flexDirection="column" justifyContent="center" alignItems="center" backgroundColor='#f4f4f4' mr={5} >
-                            <Image w={{ base: '45px', md: '80px', lg: '80px' }} src={css}  />
+                            <Image w={{ base: '45px', md: '80px', lg: '80px' }} src={express}  />
                             <Text textAlign='center' mt={{ base: '10px', lg: '15px' }}>Express</Text>
                         </Box>
                     </div>
@@ -137,7 +141,7 @@ export const AutoPlay = () => {
                     </div>
                     <div style={{ display: "flex", width: "50px", height: '150px' }} >
                         <Box p='20px' borderRadius={5} display='flex' flexDirection="column" justifyContent="center" alignItems="center" backgroundColor='#f4f4f4' mr={5} >
-                            <Image w={{ base: '45px', md: '80px', lg: '80px' }} src={github}  />
+                            <Image w={{ base: '45px', md: '80px', lg: '80px' }} src={git}  />
                             <Text textAlign='center' mt={{ base: '10px', lg: '15px' }}>Git</Text>
                         </Box>
                     </div>
