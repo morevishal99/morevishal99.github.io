@@ -76,73 +76,61 @@ export const AutoPlay = () => {
                     <div style={{ display: "flex", width: "50px", height: '150px' }} >
                         <Box p='20px' borderRadius={5} display='flex' flexDirection="column" justifyContent="center" alignItems="center" backgroundColor='#f4f4f4' mr={5}  >
                             <Image  w={{ base: '45px', md: '80px', lg: '80px' }} src={html}  />
-                            <Text mt={{ base: '10px', lg: '15px' }}>HTML</Text>
                         </Box>
                     </div>
                     <div style={{ display: "flex", width: "50px", height: '150px' }} >
                         <Box p='20px' borderRadius={5} display='flex' flexDirection="column" justifyContent="center" alignItems="center" backgroundColor='#f4f4f4' mr={5}  >
                             <Image  w={{ base: '45px', md: '60px', lg: '60px' }} src={css} />
-                            <Text textAlign='center' mt={{ base: '10px', lg: '15px' }}>CSS3</Text>
                         </Box>
                     </div>
                     <div style={{ display: "flex", width: "50px", height: '150px' }} >
                         <Box p='20px' borderRadius={5} display='flex' flexDirection="column" justifyContent="center" alignItems="center" backgroundColor='#f4f4f4' mr={5} >
                             <Image  w={{ base: '45px', md: '80px', lg: '80px' }}src={javascript}  />
-                            <Text textAlign='center' mt={{ base: '10px', lg: '15px' }}>JavaScript</Text>
                         </Box>
                     </div>
                     <div style={{ display: "flex", width: "50px", height: '150px' }} >
                         <Box p='20px' borderRadius={5} display='flex' flexDirection="column" justifyContent="center" alignItems="center" backgroundColor='#f4f4f4' mr={5} >
                             <Image  w={{ base: '45px', md: '80px', lg: '80px' }} src={react}/>
-                            <Text textAlign='center' mt={{ base: '10px', lg: '15px' }}>React.Js</Text>
                         </Box>
                     </div>
                     <div style={{ display: "flex", width: "50px", height: '150px' }} >
                         <Box p='20px' borderRadius={5} display='flex' flexDirection="column" justifyContent="center" alignItems="center" backgroundColor='#f4f4f4' mr={5} >
                             <Image w={{ base: '45px', md: '80px', lg: '80px' }} src={redux}  />
-                            <Text textAlign='center' mt={{ base: '10px', lg: '15px' }}>Redux</Text>
                         </Box>
                     </div>
                     <div style={{ display: "flex", width: "50px", height: '150px' }} >
                         <Box p='20px' borderRadius={5} display='flex' flexDirection="column" justifyContent="center" alignItems="center" backgroundColor='#f4f4f4' mr={5} >
                             <Image w={{ base: '45px', md: '80px', lg: '80px' }} src={npm} />
-                            <Text textAlign='center' mt={{ base: '10px', lg: '15px' }}>NPM</Text>
                         </Box>
                     </div>
                     <div style={{ display: "flex", width: "50px", height: '150px' }} >
                         <Box p='20px' borderRadius={5} display='flex' flexDirection="column" justifyContent="center" alignItems="center" backgroundColor='#f4f4f4' mr={5} >
                             <Image w={{ base: '75px', md: '125px', lg: '125px' }} src={node} />
-                            <Text textAlign='center' mt={{ base: '10px', lg: '15px' }}>Node.Js</Text>
                         </Box>
                     </div>
                     <div style={{ display: "flex", width: "50px", height: '150px' }} >
                         <Box p='20px' borderRadius={5} display='flex' flexDirection="column" justifyContent="center" alignItems="center" backgroundColor='#f4f4f4' mr={5} >
                             <Image w={{ base: '45px', md: '80px', lg: '80px' }} src={mongo}  />
-                            <Text textAlign='center' mt={{ base: '10px', lg: '15px' }}>Mongodb</Text>
                         </Box>
                     </div>
                     <div style={{ display: "flex", width: "50px", height: '150px' }} >
                         <Box p='20px' borderRadius={5} display='flex' flexDirection="column" justifyContent="center" alignItems="center" backgroundColor='#f4f4f4' mr={5} >
                             <Image w={{ base: '45px', md: '80px', lg: '80px' }} src={express}  />
-                            <Text textAlign='center' mt={{ base: '10px', lg: '15px' }}>Express</Text>
                         </Box>
                     </div>
                     <div style={{ display: "flex", width: "50px", height: '150px' }} >
                         <Box p='20px' borderRadius={5} display='flex' flexDirection="column" justifyContent="center" alignItems="center" backgroundColor='#f4f4f4' mr={5} >
                             <Image w={{ base: '45px', md: '80px', lg: '80px' }} src={typescript} />
-                            <Text textAlign='center' mt={{ base: '10px', lg: '15px' }}>TypeScript</Text>
                         </Box>
                     </div>
                     <div style={{ display: "flex", width: "50px", height: '150px' }} >
                         <Box p='20px' borderRadius={5} display='flex' flexDirection="column" justifyContent="center" alignItems="center" backgroundColor='#f4f4f4' mr={5} >
                             <Image w={{ base: '45px', md: '80px', lg: '80px' }} src={github}  />
-                            <Text textAlign='center' mt={{ base: '10px', lg: '15px' }}>GitHub</Text>
                         </Box>
                     </div>
                     <div style={{ display: "flex", width: "50px", height: '150px' }} >
                         <Box p='20px' borderRadius={5} display='flex' flexDirection="column" justifyContent="center" alignItems="center" backgroundColor='#f4f4f4' mr={5} >
                             <Image w={{ base: '45px', md: '80px', lg: '80px' }} src={git}  />
-                            <Text textAlign='center' mt={{ base: '10px', lg: '15px' }}>Git</Text>
                         </Box>
                     </div>
 

@@ -150,9 +150,7 @@ const Project = () => {
                                     <Box color='gray.500' fontWeight='semibold' letterSpacing='wide' fontSize='xs' textTransform='uppercase' ml='2' >
                                         React JS
                                     </Box>
-                                    <Box color='gray.500' fontWeight='semibold' letterSpacing='wide' fontSize='xs' textTransform='uppercase' ml='2' >
-                                        Javascript
-                                    </Box>
+                                    
                                     <Box color='gray.500' fontWeight='semibold' letterSpacing='wide' fontSize='xs' textTransform='uppercase' ml='2' >
                                         Chakra UI
                                     </Box>
