@@ -29,7 +29,7 @@ export const Navbar = ({ ProfileRef, AboutRef, SkillsRef, ProjectsRef, ContactRe
     }
     return (
         <>
-            <Box  pos='fixed' w='100%' zIndex='99' px={4} style={Theme === 'light' ? light : dark} className='ChackraNavBar' shadow='lg'>
+            <Box id="nav-menu" backgroundImage="http://line25.com/wp-content/uploads/2010/portfolio-coding/6.png" pos='fixed' w='100%' zIndex='99' px={4} style={Theme === 'light' ? light : dark} className='ChackraNavBar' shadow='lg'>
                 <Flex h={16} alignItems={'center'} justifyContent={'space-between'} >
                     <IconButton style={Theme === 'light' ? light : dark}
                         size='lg'
@@ -44,12 +44,12 @@ export const Navbar = ({ ProfileRef, AboutRef, SkillsRef, ProjectsRef, ContactRe
                         </Box>
                         <Flex as={'nav'} spacing={4} display={{ base: 'none', md: 'flex' }} gap='10px' w={{ base: '', md: '60%', lg: '40%' }}
                             justifyContent='space-between' alignItems='center' color='goldenrod' fontWeight='650'>
-                            <Text onClick={ProfileRef} cursor='pointer'>Home</Text>
-                            <Text onClick={AboutRef} cursor='pointer'>About</Text>
-                            <Text onClick={SkillsRef} cursor='pointer'>Skills</Text>
-                            <Text onClick={ProjectsRef} cursor='pointer'>Project</Text>
-                            <Text onClick={ContactRef} cursor='pointer'>Contact</Text>
-                            <a href="https://drive.google.com/file/d/1t42g2b_cVik65BL7Yni89_JzRYihcs94/view?usp=share_link" target='_blank'><Text>Resume</Text> </a>
+                            <Text id="home" class="nav-link home" onClick={ProfileRef} cursor='pointer'>Home</Text>
+                            <Text id="about" class="nav-link about" onClick={AboutRef} cursor='pointer'>About</Text>
+                            <Text id="skills" class="nav-link skills" onClick={SkillsRef} cursor='pointer'>Skills</Text>
+                            <Text id="projects" class="nav-link projects" onClick={ProjectsRef} cursor='pointer'>Project</Text>
+                            <Text class="nav-link contact" onClick={ContactRef} cursor='pointer'>Contact</Text>
+                            <Text id="resume-button-1" class="nav-link resume"><a href="https://drive.google.com/file/d/1t42g2b_cVik65BL7Yni89_JzRYihcs94/view?usp=share_link" target='_blank'>Resume </a></Text>
                         </Flex>
                     </Flex>
                     <Box width='5%' justifyContent={'center'} display='flex'>
@@ -57,14 +57,14 @@ export const Navbar = ({ ProfileRef, AboutRef, SkillsRef, ProjectsRef, ContactRe
                     </Box>
                 </Flex>
                 {isOpen ? (
-                    <Box  pb={4} display={{ md: 'none' }} style={Theme === 'light' ? light : dark}>
+                    <Box pb={4} display={{ md: 'none' }} style={Theme === 'light' ? light : dark}>
                         <Stack as={'nav'} spacing={4} color='goldenrod' fontWeight='600'>
-                            <Text onClick={ProfileRef} cursor='pointer'>Home</Text>
-                            <Text onClick={AboutRef} cursor='pointer'>About</Text>
-                            <Text onClick={SkillsRef} cursor='pointer'>Skills</Text>
-                            <Text onClick={ProjectsRef} cursor='pointer'>Project</Text>
-                            <Text onClick={ContactRef} cursor='pointer'>Contact</Text>
-                            <a href="https://drive.google.com/file/d/1t42g2b_cVik65BL7Yni89_JzRYihcs94/view?usp=share_link"><Text cursor='pointer'>Resume</Text></a>
+                            <Text id="home" class="nav-link home" onClick={ProfileRef} cursor='pointer'>Home</Text>
+                            <Text id="about" class="nav-link about" onClick={AboutRef} cursor='pointer'>About</Text>
+                            <Text id="skills" class="nav-link skills" onClick={SkillsRef} cursor='pointer'>Skills</Text>
+                            <Text id="projects" class="nav-link projects" onClick={ProjectsRef} cursor='pointer'>Project</Text>
+                            <Text id="contact"class="nav-link contact" onClick={ContactRef} cursor='pointer'>Contact</Text>
+                            <Text id="resume-button-1" class="nav-link resume"><a href="https://drive.google.com/file/d/1t42g2b_cVik65BL7Yni89_JzRYihcs94/view?usp=share_link" target='_blank'>Resume </a></Text>
                         </Stack>
                     </Box>
                 ) : null}

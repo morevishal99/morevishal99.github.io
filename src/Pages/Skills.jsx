@@ -71,11 +71,11 @@ export const AutoPlay = () => {
     return (
         <>
             <Text  color='goldenrod'   fontSize={{ base: '22px', md: '22px', lg: '40px' }} fontWeight={{ base: '600', md: '700' }} textAlign='center' >Skills</Text>
-            <Box w="80%" m='auto'>
-                <Slider {...settings} style={Theme === 'light' ? light : dark}>
+            <Box  id="skills" w="80%" m='auto'>
+                <Slider class="skills-card" {...settings} style={Theme === 'light' ? light : dark}>
                     <div style={{ display: "flex", width: "50px", height: '150px' }} >
                         <Box p='20px' borderRadius={5} display='flex' flexDirection="column" justifyContent="center" alignItems="center" backgroundColor='#f4f4f4' mr={5}  >
-                            <Image  w={{ base: '45px', md: '80px', lg: '80px' }} src={html}  />
+                            <Image class="skills-card-img" w={{ base: '45px', md: '80px', lg: '80px' }} src={html}  />
                         </Box>
                     </div>
                     <div style={{ display: "flex", width: "50px", height: '150px' }} >

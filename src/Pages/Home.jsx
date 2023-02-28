@@ -24,13 +24,13 @@ const Home = () => {
                             </Flex>
 
 
-                            <Text fontSize={{ base: '25px', md: '50px', lg: '80px' }} color='' style={{}}>I Am Vishal More</Text>
+                            <Text id="user-detail-name" fontSize={{ base: '25px', md: '50px', lg: '80px' }} color='' style={{}}>I Am Vishal More</Text>
                         </Flex>
                         <Text >MERN Stack Developer</Text>
-                        <a href="https://drive.google.com/file/d/1t42g2b_cVik65BL7Yni89_JzRYihcs94/view?usp=share_link" ><Button size={{ base: 'sm', md: 'md', lg: 'lg' }} mt={{ base: '10px', md: '0' }} colorScheme='teal' gap={1.5}>Resume <VscCloudDownload color="white" /></Button></a>
+                        <Button id="resume-button-2" size={{ base: 'sm', md: 'md', lg: 'lg' }} mt={{ base: '10px', md: '0' }} colorScheme='teal' gap={1.5}><a id="resume-link-2" href="https://drive.google.com/file/d/1t42g2b_cVik65BL7Yni89_JzRYihcs94/view?usp=share_link" > Resume<VscCloudDownload color="white" /> </a> </Button>
                     </Box>
                     <Box>
-                        <Image src='https://avatars.githubusercontent.com/u/107456969?v=4' shadow='lg' mt={{ base: '10px', md: '0px' }} w={{ base: '100px', md: '200px', lg: '350px' }} borderRadius='50%' alt="Vishal More" />
+                        <Image class="home-img" src='https://avatars.githubusercontent.com/u/107456969?v=4' shadow='lg' mt={{ base: '10px', md: '0px' }} w={{ base: '100px', md: '200px', lg: '350px' }} borderRadius='50%' alt="Vishal More" />
                     </Box>
                 </Flex>
             </Box>
