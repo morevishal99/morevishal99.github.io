@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8489d24c.css",
-    "main.js": "/static/js/main.43dd85af.js",
+    "main.js": "/static/js/main.bade8c1d.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/FashionFlare.png": "/static/media/FashionFlare.a3a1e3653d483b9ebb0a.png",
     "static/media/Yoox.png": "/static/media/Yoox.cb1b51ca3a88137a1112.png",
@@ -9,6 +9,7 @@
     "static/media/Smatbot.png": "/static/media/Smatbot.3b60b19f09d7a30de8fc.png",
     "static/media/Nordstrom.png": "/static/media/Nordstrom.3ad6da8f6d5ba5a564a5.png",
     "static/media/logo.gif": "/static/media/logo.08682cc29527860de981.gif",
+    "static/media/Profile.png": "/static/media/Profile.dcbfe8763ff450352053.png",
     "static/media/Indeed.png": "/static/media/Indeed.1652a85a5a8ff5692491.png",
     "static/media/react.png": "/static/media/react.22d1f2096ed82cab7a8a.png",
     "static/media/redux.png": "/static/media/redux.fdf287be94ed4133f04c.png",
@@ -24,11 +25,11 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.8489d24c.css.map": "/static/css/main.8489d24c.css.map",
-    "main.43dd85af.js.map": "/static/js/main.43dd85af.js.map",
+    "main.bade8c1d.js.map": "/static/js/main.bade8c1d.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8489d24c.css",
-    "static/js/main.43dd85af.js"
+    "static/js/main.bade8c1d.js"
   ]
 }
