@@ -29,7 +29,7 @@ export const Navbar = ({ ProfileRef, AboutRef, SkillsRef, ProjectsRef, ContactRe
     }
     return (
         <>
-            <Box border={"1px solid red"} id="nav-menu" backgroundImage="http://line25.com/wp-content/uploads/2010/portfolio-coding/6.png" position='fixed' w='100%' zIndex='100' px={4} style={Theme === 'light' ? light : dark} className='ChackraNavBar' shadow='lg'>
+            <Box id="nav-menu" backgroundImage="http://line25.com/wp-content/uploads/2010/portfolio-coding/6.png" position='fixed' w='100%' zIndex='100' px={4} style={Theme === 'light' ? light : dark} className='ChackraNavBar' shadow='lg'>
                 <Flex  alignItems={'left'} justifyContent={'space-between'} >
                     <IconButton style={Theme === 'light' ? light : dark}
                         size='lg'
