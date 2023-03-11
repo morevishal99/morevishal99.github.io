@@ -34,7 +34,7 @@ export default function About() {
           textAlign={'center'}>
 
           <Text  id="user-detail-intro" textAlign={'center'} color={useColorModeValue('gray.700', 'gray.400')} px={5} style={Theme === 'light' ? light : dark}>
-            An aspiring full-stack developer with a good knowledge of web development and Problem-Solving skills. Skilled in developing quality
+            An aspiring full-stack web developer with a good knowledge of web development and Problem-Solving skills. Skilled in developing quality
             programs quickly. My expertise lies in delivering user-friendly software
             applications within strict deadlines. Looking to secure a stimulating
             position as a Full stack web developer, alongside learning and growing
