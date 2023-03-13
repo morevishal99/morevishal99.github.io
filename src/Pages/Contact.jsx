@@ -22,11 +22,7 @@ export default function Contact() {
     <>
       <Text textAlign='center' color='goldenrod' fontSize={{ base: '20px', md: '22px', lg: '40px' }} fontWeight={{ base: '600', md: '700' }}>Contact</Text>
       <Box id="contact" style={Theme === 'light' ? light : dark} p={{ base: '10px', md: '30px' }} backgroundColor="" color="black" mt='10px' >
-        <Text textAlign='center' fontSize={{ base: '13px', md: '16px' }}>Find Me Around The Web</Text>
-        <Flex w={{ base: '100%', md: '70%', lg: '50%' }} m='auto' justifyContent='space-between' fontSize={{ base: '22px', md: '26px', lg: '30px' }} mt='10px'
-
-
-        >
+        <Flex w={{ base: '100%', md: '70%', lg: '50%' }} m='auto' justifyContent='space-between' fontSize={{ base: '22px', md: '26px', lg: '30px' }} mt='10px'>
           <Flex flexDirection="column" alignItems="center" gap={3} >
             <Text id="contact-linkedin" >  <a href="https://www.linkedin.com/in/vishalmore99/" target='_blank'> <BsLinkedin /></a></Text>
             <Text fontSize={{ base: '7px', md: '11px', lg: '15px' }}>Vishal More</Text>

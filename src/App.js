@@ -53,7 +53,7 @@ function App() {
       ContactRef={( ) => HandleScrollTo(ContactRef)}
       />    
 
-     <Box ref={ProfileRef}>
+     <Box  ref={ProfileRef}>
       <Home/>
      </Box>
 
