@@ -7,6 +7,7 @@ import { AppContext } from "../Context/Theme";
 import css from "./SkillsImages/css.png"
 import github from "./SkillsImages/github.png"
 import git from "./SkillsImages/git.png"
+import postman from "./SkillsImages/Postman.png"
 import html from "./SkillsImages/html5.png"
 import javascript from "./SkillsImages/javascript.png"
 import node from "./SkillsImages/node js.png"
@@ -32,11 +33,11 @@ export const Skills = () => {
     }
     const settings = {
         infinite: true,
-        slidesToShow: 6,
+        slidesToShow: 5,
         slidesToScroll: 1,
         autoplay: true,
-        speed: 1000,
-        autoplaySpeed: 100,
+        speed: 2000,
+        autoplaySpeed: "nono",
         cssEase: "linear",
         responsive: [
             {
@@ -74,7 +75,7 @@ export const Skills = () => {
                     <div style={{ display: "flex", width: "50px", height: '150px' }} >
                         <Box className="skills-card" p='20px' borderRadius={5} display='flex' flexDirection="column" justifyContent="center" alignItems="center" backgroundColor='#f4f4f4' mr={5}  >
                             <Image className="skills-card-img" w={{ base: '45px', md: '60px', lg: '80px' }} src={html} />
-                            <Text color={"grey"} padding="10px" fontSize={"20px"} fontWeight="600">HTML</Text>
+                            <Text className="skills-card-name" color={"grey"} padding="10px" fontSize={"20px"} fontWeight="600">HTML</Text>
                         </Box>
                     </div>
                     <div style={{ display: "flex", width: "50px", height: '150px' }} >
@@ -145,7 +146,7 @@ export const Skills = () => {
                     </div>
                     <div style={{ display: "flex", width: "50px", height: '150px', gap: "10px" }} >
                         <Box p='20px' borderRadius={5} display='flex' flexDirection="column" justifyContent="center" alignItems="center" backgroundColor='#f4f4f4' mr={5} >
-                            <Image w={{ base: '45px', md: '80px', lg: '80px' }} src={git} />
+                            <Image w={{ base: '45px', md: '80px', lg: '80px' }} src={postman} />
                             <Text color={"grey"} padding="10px" fontSize={"20px"} fontWeight="600">POSTMAN</Text>
                         </Box>
                     </div>

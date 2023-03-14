@@ -22,10 +22,10 @@ export default function About() {
   }
   return (
     <>
-      <Text  fontSize={{ base: '22px', md: '22px', lg: '40px' }} color='goldenrod' fontWeight={{ base: '600', md: '700' }} textAlign='center'>About Me</Text>
-      <Center id='about' className="about section" style={Theme === 'light' ? light : dark}>
-        <Flex display={{ base: "column", sm: "column", md: "flex", lg: "flex" }} >
-          <Box style={Theme === 'light' ? light : dark}
+      <Text id='about' className="about section" fontSize={{ base: '22px', md: '22px', lg: '40px' }} color='goldenrod' fontWeight={{ base: '600', md: '700' }} textAlign='center'>About Me</Text>
+      {/* <Center  style={Theme === 'light' ? light : dark}> */}
+        <Flex justify={'center'}display={{ base: "column", sm: "column", md: "flex", lg: "flex" }} margin="auto" >
+          <Box  style={Theme === 'light' ? light : dark}
             maxW={{ base: '350px', md: '450px', lg: '600px', xl: '800px' }}
             w={'full'}
             bg={useColorModeValue('white', 'gray.900')}
@@ -33,20 +33,28 @@ export default function About() {
             color="red"
             textAlign={'center'}>
            
-            <Text fontSize={"20px"} fontWeight="600" mt={"90px"} id="user-detail-intro" textAlign={'left'}  px={8} style={Theme === 'light' ? light : dark} color="red">
+            <Text id="user-detail-intro" fontSize={"20px"} fontWeight="600" mt={"90px"} textAlign={{base:"center",sm:"center",md:"left",lg:"left"}}  px={8} style={Theme === 'light' ? light : dark} color="red">
               An aspiring full-stack web developer with a good knowledge of web development and Problem-Solving skills. Skilled in developing quality
               programs quickly. My expertise lies in delivering user-friendly software
               applications within strict deadlines. Looking to secure a stimulating
               position as a Full stack web developer, alongside learning and growing
               with the company.
             </Text>
-            <Stack align={'center'} justify={'center'} direction={'row'} mt={6}>
+            <Stack  align={'center'} justify={'center'} direction={'row'} mt={6}>
+              <Badge 
+                px={2}
+                py={1}
+                bg={useColorModeValue('gray.50', 'gray.800')}
+                fontWeight={'400'}>
+                #HTML
+              </Badge>
+              
               <Badge
                 px={2}
                 py={1}
                 bg={useColorModeValue('gray.50', 'gray.800')}
                 fontWeight={'400'}>
-                #WebDesign
+                #CSS
               </Badge>
               <Badge
                 px={2}
@@ -60,27 +68,36 @@ export default function About() {
                 py={1}
                 bg={useColorModeValue('gray.50', 'gray.800')}
                 fontWeight={'400'}>
-                #tech
+                #REACT JS
               </Badge>
               <Badge
                 px={2}
                 py={1}
                 bg={useColorModeValue('gray.50', 'gray.800')}
                 fontWeight={'400'}>
-                #DSA
+                #NODE JS
               </Badge>
               <Badge
                 px={2}
                 py={1}
                 bg={useColorModeValue('gray.50', 'gray.800')}
                 fontWeight={'400'}>
-                #programmer
+                #EXPRESS JS
               </Badge>
+              <Badge
+                px={2}
+                py={1}
+                bg={useColorModeValue('gray.50', 'gray.800')}
+                fontWeight={'400'}>
+                #MONGO DB
+              </Badge>
+             
+            
             </Stack>
           </Box>
           <Image src="https://camo.githubusercontent.com/101c98f67298425e9875ecfac1c25efccaf3c966db04609cc4f4e92d6bd12c32/68747470733a2f2f632e74656e6f722e636f6d2f4e4f594633663832625f6741414141432f70726f6772616d6d65722e676966" alt="coding image" />
         </Flex>
-      </Center>
+      {/* </Center> */}
     </>
   );
 }

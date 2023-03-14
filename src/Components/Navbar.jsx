@@ -19,7 +19,7 @@ export const Navbar = ({ ProfileRef, AboutRef, SkillsRef, ProjectsRef, ContactRe
     const { Theme, ToggleTheme } = useContext(AppContext)
 
     const light = {
-        backgroundColor: 'white',
+        backgroundColor: 'aliceblue',
         color: 'black'
     }
 
@@ -29,13 +29,15 @@ export const Navbar = ({ ProfileRef, AboutRef, SkillsRef, ProjectsRef, ContactRe
     }
     return (
         <>
-            <Box id="nav-menu" backgroundImage="http://line25.com/wp-content/uploads/2010/portfolio-coding/6.png" position='fixed' w='100%' zIndex='100' px={4} style={Theme === 'light' ? light : dark} className='ChackraNavBar' shadow='lg'>
+            <Box id="nav-menu"  position='fixed' w='100%' zIndex='100' px={4} style={Theme === 'light' ? light : dark} className='ChackraNavBar' shadow='lg'>
                 <Flex  alignItems={'left'} justifyContent={'space-between'} >
                     <IconButton style={Theme === 'light' ? light : dark}
                         size='lg'
                         icon={isOpen ? <CloseIcon /> : <HamburgerIcon fontSize='30px' />}
                         aria-label='Open Menu'
                         display={{ md: 'none' }}
+                        marigin-top="15px"
+                        boreder="1px solid blue"
                         onClick={isOpen ? onClose : onOpen}
                     />
                     <Flex justifyContent={'space-between'} alignItems='center' w='90%' m={'auto'} >
@@ -49,11 +51,11 @@ export const Navbar = ({ ProfileRef, AboutRef, SkillsRef, ProjectsRef, ContactRe
                             <Text id="skills"  className="nav-link skills" onClick={SkillsRef} cursor='pointer'>Skills</Text>
                             <Text id="projects"  className="nav-link projects" onClick={ProjectsRef} cursor='pointer'>Project</Text>
                             <Text  className="nav-link contact" onClick={ContactRef} cursor='pointer'>Contact</Text>
-                            <Text id="resume-button-2"  className="nav-link resume"><a id="resume-link-2"href="https://drive.google.com/file/d/1t42g2b_cVik65BL7Yni89_JzRYihcs94/view?usp=share_link" target='_blank'>Resume </a></Text>
+                           <a  id="resume-button-2"  className="nav-link resume" href="https://drive.google.com/file/d/1t42g2b_cVik65BL7Yni89_JzRYihcs94/view?usp=share_link" target='_blank' rel="noreferrer">Resume </a>
                         </Flex>
                     </Flex>
-                    <Box width='5%' justifyContent={'center'} display='flex'>
-                        <Text onClick={ToggleTheme} cursor='pointer'>{Theme === 'light' ? <BsFillMoonFill /> : <BsFillSunFill />}</Text>
+                    <Box width='10%' mt={"20px"}justifyContent={'center'} display='flex'>
+                        <Text fontSize={"25px"} onClick={ToggleTheme} cursor='pointer'>{Theme === 'light' ? <BsFillMoonFill /> : <BsFillSunFill />}</Text>
                     </Box>
                 </Flex>
                 {isOpen ? (
@@ -64,8 +66,9 @@ export const Navbar = ({ ProfileRef, AboutRef, SkillsRef, ProjectsRef, ContactRe
                             <Text id="skills"  className="nav-link skills" onClick={SkillsRef} cursor='pointer'>Skills</Text>
                             <Text id="projects"  className="nav-link projects" onClick={ProjectsRef} cursor='pointer'>Project</Text>
                             <Text id="contact" className="nav-link contact" onClick={ContactRef} cursor='pointer'>Contact</Text>
-                            <a  id="resume-link-1" href="https://drive.google.com/file/d/1t42g2b_cVik65BL7Yni89_JzRYihcs94/view?usp=share_link" target='_blank'>Resume </a>
+                            <a   id="resume-button-2" className="nav-link resume" href="https://drive.google.com/file/d/1t42g2b_cVik65BL7Yni89_JzRYihcs94/view?usp=share_link" target='_blank' rel="noreferrer">Resume </a>
                         </Stack>
+                        {/* id="resume-link-1" */}
                     </Box>
                 ) : null}
             </Box>
