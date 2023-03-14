@@ -22,8 +22,8 @@ export default function About() {
   }
   return (
     <>
-      <Text id="about" fontSize={{ base: '22px', md: '22px', lg: '40px' }} color='goldenrod' fontWeight={{ base: '600', md: '700' }} textAlign='center'>About Me</Text>
-      <Center className="about section" style={Theme === 'light' ? light : dark}>
+      <Text  fontSize={{ base: '22px', md: '22px', lg: '40px' }} color='goldenrod' fontWeight={{ base: '600', md: '700' }} textAlign='center'>About Me</Text>
+      <Center id='about' className="about section" style={Theme === 'light' ? light : dark}>
         <Flex display={{ base: "column", sm: "column", md: "flex", lg: "flex" }} >
           <Box style={Theme === 'light' ? light : dark}
             maxW={{ base: '350px', md: '450px', lg: '600px', xl: '800px' }}

@@ -18,7 +18,7 @@ import redux from "./SkillsImages/redux.png"
 import express from "./SkillsImages/express.png"
 
 
-export const AutoPlay = () => {
+export const Skills = () => {
 
     const { Theme } = useContext(AppContext)
     const light = {

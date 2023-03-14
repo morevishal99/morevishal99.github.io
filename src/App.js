@@ -1,6 +1,6 @@
 
 import { Navbar } from './Components/Navbar';
-import {AutoPlay} from './Pages/Skills';
+import {AutoPlay, Skills} from './Pages/Skills';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Home from './Pages/Home';
@@ -62,12 +62,13 @@ function App() {
      </Box>
 
      <Box mt={{base : '10%', md : '7%', lg : '5%' }} ref={SkillsRef}>
-      <AutoPlay/>
+      <Skills/>
      </Box>
 
      <Box mt={{base : '10%', md : '7%', lg : '5%' }} ref={ProjectRef}>
       <Project/>
      </Box>
+
      <Box mt={{base : '10%', md : '7%', lg : '5%' }} >
       <Github />
      </Box>
