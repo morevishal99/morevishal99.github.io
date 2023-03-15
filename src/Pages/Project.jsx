@@ -1,8 +1,6 @@
 import React, { useContext } from 'react';
 import { Box, Image, Badge, Text, Flex } from '@chakra-ui/react'
 import { AppContext } from '../Context/Theme';
-import { TfiGithub } from "react-icons/tfi";
-import { GrDeploy } from "react-icons/gr";
 import Nordstrom from "./ProjectImages/Nordstrom.png"
 import smatbot from "./ProjectImages/Smatbot.png"
 import Indeed from "./ProjectImages/Indeed.png"
@@ -19,16 +17,12 @@ const Project = () => {
         color: 'white'
     }
     const lightc = "#36454f"
-
-
-    // const darkc = '#F0F8FF'
     const darkc = '#92c7c7'
-
     return (
         <Box id="projects">
             <Text textAlign='center' color='goldenrod' fontSize={{ base: '20px', md: '22px', lg: '40px' }} fontWeight={{ base: '600', md: '700' }}>My Projects</Text>
             <Box w={"80%"} display={{ base: "column", sm: "column", lg: "grid" }} gridTemplateColumns="repeat(2,1fr)" m={"auto"} mt="50px" gap={20}>
-                {/* {first} */}
+                {/* one */}
                 <Text padding={"15px"} className="project-card" right boxShadow={" rgba(0, 0, 0, 0.35) 0px 5px 15px;"}>
                     <Box style={Theme === 'light' ? light : dark} w={"100%"} borderRadius='lg' overflow='hidden' backgroundColor={"white"} mb={10} >
                         <Image w='full' src={FashionFlare} alt="Yoox" />
@@ -62,8 +56,8 @@ const Project = () => {
                         </Flex>
                     </Box>
                 </Text>
-                {/* {second} */}
-                <Text padding={"15px"}  boxShadow={" rgba(0, 0, 0, 0.35) 0px 5px 15px;"}
+                {/* two */}
+                <Text padding={"15px"} boxShadow={" rgba(0, 0, 0, 0.35) 0px 5px 15px;"}
                     className="project-card" right>
                     <Box style={Theme === 'light' ? light : dark} w={"100%"} borderRadius='lg' overflow='hidden' backgroundColor={"white"} mb={10} >
                         <Image w='full' src={Musafir} alt="Yoox" />
@@ -85,7 +79,7 @@ const Project = () => {
                                         Redux
                                     </Box>
                                     <Box className="project-tech-stack" color='gray.500' fontWeight='semibold' letterSpacing='wide' fontSize='xs' textTransform='uppercase' ml='2' >
-                                        Chakra UI
+                                        Material UI
                                     </Box>
                                 </Box>
                             </Box>
@@ -96,8 +90,8 @@ const Project = () => {
                         </Flex>
                     </Box>
                 </Text>
-                {/* {third} */}
-                <Text padding={"15px"} className="project-card" left  boxShadow={" rgba(0, 0, 0, 0.35) 0px 5px 15px;"}>
+                {/* three */}
+                <Text padding={"15px"} className="project-card" left boxShadow={" rgba(0, 0, 0, 0.35) 0px 5px 15px;"}>
                     <Box style={Theme === 'light' ? light : dark} w={"100%"} borderRadius='lg' overflow='hidden' backgroundColor={"white"} mb={10} >
                         <Image w='full' src={Indeed} alt="Indeed" />
                         <Box p='6'>
@@ -133,8 +127,8 @@ const Project = () => {
                         </Flex>
                     </Box>
                 </Text>
-                {/* {fourth} */}
-                <Text padding={"15px"} className="project-card" right  boxShadow={" rgba(0, 0, 0, 0.35) 0px 5px 15px;"}>
+                {/* four */}
+                <Text padding={"15px"} className="project-card" right boxShadow={" rgba(0, 0, 0, 0.35) 0px 5px 15px;"}>
                     <Box style={Theme === 'light' ? light : dark} w={"100%"} borderRadius='lg' overflow='hidden' backgroundColor={"white"} mb={10} >
                         <Image w='full' src={smatbot} alt="SmatBot" h={{ lg: '300px' }} />
                         <Box p='6'>
@@ -167,8 +161,8 @@ const Project = () => {
                         </Flex>
                     </Box>
                 </Text>
-                {/* {fifth} */}
-                <Text padding={"15px"} className="project-card" left  boxShadow={" rgba(0, 0, 0, 0.35) 0px 5px 15px;"}>
+                {/* fifth */}
+                <Text padding={"15px"} className="project-card" left boxShadow={" rgba(0, 0, 0, 0.35) 0px 5px 15px;"}>
                     <Box style={Theme === 'light' ? light : dark} w={"100%"} borderRadius='lg' overflow='hidden' backgroundColor={"white"} mb={10}  >
                         <Image w='full' src={Nordstrom} alt="NordStrom" h={{ lg: '300px' }} />
                         <Box p='6' >

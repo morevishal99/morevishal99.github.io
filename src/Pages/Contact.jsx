@@ -4,16 +4,12 @@ import { AiOutlinePhone } from 'react-icons/ai'
 import { GrMail } from 'react-icons/gr'
 import { useContext } from "react";
 import { AppContext } from "../Context/Theme";
-
-
 export default function Contact() {
   const { Theme } = useContext(AppContext);
-
   const light = {
     backgroundColor: 'white',
     color: 'black'
   }
-
   const dark = {
     backgroundColor: 'black',
     color: 'white'
@@ -24,12 +20,12 @@ export default function Contact() {
       <Box id="contact" style={Theme === 'light' ? light : dark} p={{ base: '10px', md: '30px' }} backgroundColor="" color="black" mt='10px' >
         <Flex w={{ base: '100%', md: '70%', lg: '50%' }} m='auto' justifyContent='space-between' fontSize={{ base: '22px', md: '26px', lg: '30px' }} mt='10px'>
           <Flex flexDirection="column" alignItems="center" gap={3} >
-            <Text id="contact-linkedin" >  <a href="https://www.linkedin.com/in/vishalmore99/" target='_blank'> <BsLinkedin /></a></Text>
+            <Text id="contact-linkedin" >  <a href="https://www.linkedin.com/in/vishalmore99/" target='_blank' rel="noreferrer"> <BsLinkedin /></a></Text>
             <Text fontSize={{ base: '7px', md: '11px', lg: '15px' }}>Vishal More</Text>
           </Flex>
 
           <Flex flexDirection="column" alignItems="center" gap={3}>
-            <Text id="contact-github">   <a href="https://github.com/morevishal99" target='_blank'><BsGithub /></a></Text>
+            <Text id="contact-github">   <a href="https://github.com/morevishal99" target='_blank' rel="noreferrer"><BsGithub /></a></Text>
             <Text fontSize={{ base: '7px', md: '11px', lg: '15px' }}>Vishal More</Text>
           </Flex>
 

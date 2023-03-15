@@ -2,7 +2,6 @@ import { Box, Flex, Image, Text } from "@chakra-ui/react";
 import { useContext } from "react";
 import GitHubCalendar from "react-github-calendar";
 import { AppContext } from '../Context/Theme';
-
 const Github = () => {
   const { Theme } = useContext(AppContext)
   return (

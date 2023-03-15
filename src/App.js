@@ -1,13 +1,10 @@
-
 import { Navbar } from './Components/Navbar';
-import {AutoPlay, Skills} from './Pages/Skills';
+import { Skills} from './Pages/Skills';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Home from './Pages/Home';
-// import './App.css';
 import { useContext, useRef } from 'react';
 import { AppContext } from './Context/Theme.jsx';
-
 import {  Box } from '@chakra-ui/react';
 import Project from './Pages/Project'; 
 import Github from './Pages/Github';
@@ -29,15 +26,7 @@ function App() {
     color : 'white'
   }
 
-  // const HandleScrollToDefault = ( ) =>{
-  //   window.scrollTo({
-  //     top : document.documentElement.scrollHeight,
-  //     behavior : 'smooth'
-  //   })
-  // }
-
   const HandleScrollTo = (ref) =>{
-    // console.log("Rakesh")
     window.scrollTo({
       top : ref.current.offsetTop,
       behavior : 'smooth'
@@ -57,7 +46,7 @@ function App() {
       <Home/>
      </Box>
 
-     <Box mt={{base : '0%', md: '7%'}} ref={AboutRef}>
+     <Box mt={{base : '20%', md: '17%',lg:"25%"}} ref={AboutRef}>
       <About/>
      </Box>
 
