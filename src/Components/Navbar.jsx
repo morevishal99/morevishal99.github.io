@@ -1,4 +1,4 @@
-import logo from '../Images/logo.gif'
+import logo from '../Images/Vishal.gif'
 import { useContext } from 'react';
 import { Box, Flex, IconButton, useDisclosure, Stack, Text, Image } from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
@@ -21,8 +21,8 @@ export const Navbar = ({ ProfileRef, AboutRef, SkillsRef, ProjectsRef, ContactRe
     }
     return (
         <>
-            <Box id="nav-menu" position='fixed' w='100%' style={Theme === 'light' ? light : dark} className='ChackraNavBar' shadow='lg'>
-                <Flex alignItems={'left'} justifyContent={'space-between'} >
+            <Box  id="nav-menu" position='fixed' w='100%' zIndex='100' px={4} style={Theme === 'light' ? light : dark} className='ChackraNavBar' shadow='lg'>
+                   <Flex alignItems={'left'} justifyContent={'space-between'} >
                     <IconButton style={Theme === 'light' ? light : dark}
                         size='lg'
                         icon={isOpen ? <CloseIcon /> : <HamburgerIcon fontSize='30px' />}
@@ -34,7 +34,7 @@ export const Navbar = ({ ProfileRef, AboutRef, SkillsRef, ProjectsRef, ContactRe
                     />
                     <Flex justifyContent={'space-between'} alignItems='center' w='90%' m={'auto'} >
                         <Box p='5px'>
-                            <Image width={{ base: '60px', md: '60px' }} src={logo} />
+                            <Image h={{ base: '60px', md: '60px',lg:"80px" }}width={{ base: '100px', md: '100px',lg:"160px" }} src={logo} />
                         </Box>
                         <Flex as={'nav'} spacing={4} display={{ base: 'none', md: 'flex' }} gap='10px' w={{ base: '', md: '60%', lg: '40%' }}
                             justifyContent='space-between' alignItems='center' color='goldenrod' fontWeight='650'>

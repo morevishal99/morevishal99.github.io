@@ -12,11 +12,10 @@ export default function About() {
     color: 'teal'
   }
   return (
-    <><Box    id="about" className="about section"> <span >    <Text mt={{ sm: '20%', md: '10%', lg: '15%' }} fontSize={{ base: '22px', md: '22px', lg: '40px' }} color='goldenrod' fontWeight={{ base: '600', md: '700' }} textAlign='center'>About Me</Text>
-      </span>
-
+    <><Box id="about" className="about section">
+      <Text mt={{ sm: '20%', md: '10%', lg: '15%' }} fontSize={{ base: '22px', md: '22px', lg: '40px' }} color='goldenrod' fontWeight={{ base: '600', md: '700' }} textAlign='center'>About Me</Text>
       <Flex justify={'center'} display={{ base: "column", sm: "column", md: "flex", lg: "flex" }} margin="auto" >
-        <Box  id="user-detail-intro" style={Theme === 'light' ? light : dark}
+        <Box id="user-detail-intro" style={Theme === 'light' ? light : dark}
           maxW={{ base: '350px', md: '450px', lg: '600px', xl: '800px' }}
           w={'full'}
           bg={useColorModeValue('white', 'gray.900')}
@@ -24,7 +23,7 @@ export default function About() {
           color="red"
           textAlign={'center'}>
 
-          <Text  fontSize={"20px"} fontWeight="600" mt={"10px"} textAlign={{ base: "center", sm: "center", md: "left", lg: "left" }} px={8} style={Theme === 'light' ? light : dark} color="red">
+          <Text fontSize={"20px"} fontWeight="600" mt={"10px"} textAlign={{ base: "center", sm: "center", md: "left", lg: "left" }} px={8} style={Theme === 'light' ? light : dark} color="red">
             An aspiring full-stack web developer with a good knowledge of web development and Problem-Solving skills. Skilled in developing quality
             programs quickly. My expertise lies in delivering user-friendly software
             applications within strict deadlines. Looking to secure a stimulating
