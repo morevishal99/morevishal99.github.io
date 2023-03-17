@@ -32,8 +32,10 @@ function App() {
       behavior : 'smooth'
     })
   };
+const white="white"
+const black="black"
   return (
-    <div className="App" style={Theme ==='light'? light : dark} >
+    <div className="App"  style={Theme ==='light'? light : dark} >
       <Navbar 
       ProfileRef={( ) =>HandleScrollTo(ProfileRef)} 
       AboutRef={( )=> HandleScrollTo(AboutRef)} 
@@ -42,27 +44,27 @@ function App() {
       ContactRef={( ) => HandleScrollTo(ContactRef)}
       />    
 
-     <Box  ref={ProfileRef}>
+     <Box border={`2px solid ${Theme ==='light'?   white:black  }`}  ref={ProfileRef}>
       <Home/>
      </Box>
 
-     <Box mt={{base : '20%', md: '17%',lg:"25%"}} ref={AboutRef}>
+     <Box  border={`2px solid ${Theme ==='light'?   white:black  }`}  mt={{base : '5%', md: '39%',lg:"30%"}} ref={AboutRef}>
       <About/>
      </Box>
 
-     <Box mt={{base : '10%', md : '7%', lg : '5%' }} ref={SkillsRef}>
+     <Box  border={`2px solid ${Theme ==='light'?   white:black  }`} mt={{base : '10%', md : '40%', lg : '35%' }} ref={SkillsRef}>
       <Skills/>
      </Box>
 
-     <Box mt={{base : '10%', md : '7%', lg : '5%' }} ref={ProjectRef}>
+     <Box border={`2px solid ${Theme ==='light'?   white:black  }`}  mt={{base : '10%', md : '57%', lg : '38%' }} ref={ProjectRef}>
       <Project/>
      </Box>
 
-     <Box mt={{base : '10%', md : '7%', lg : '5%' }} >
+     <Box border={`2px solid ${Theme ==='light'?   white:black  }`}  mt={{base : '10%', md : '7%', lg : '5%' }} >
       <Github />
      </Box>
 
-     <Box mt={{base : '7%', md : '7%', lg : '5%' }} ref={ContactRef}>
+     <Box border={`2px solid ${Theme ==='light'?   white:black  }`}  mt={{base : '7%', md : '7%', lg : '5%' }} ref={ContactRef}>
       <Contact/>
      </Box>
     </div>

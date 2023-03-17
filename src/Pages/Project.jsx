@@ -19,11 +19,11 @@ const Project = () => {
     const lightc = "#36454f"
     const darkc = '#92c7c7'
     return (
-        <Box id="projects">
+        <Box mt={{ sm: '20%', md: '10%', lg: '5%' }} id="projects">
             <Text textAlign='center' color='goldenrod' fontSize={{ base: '20px', md: '22px', lg: '40px' }} fontWeight={{ base: '600', md: '700' }}>My Projects</Text>
-            <Box w={"80%"} display={{ base: "column", sm: "column", lg: "grid" }} gridTemplateColumns="repeat(2,1fr)" m={"auto"} mt="50px" gap={20}>
+            <Box  w={"80%"} display={{ base: "column", sm: "column", lg: "grid" }} gridTemplateColumns="repeat(2,1fr)" m={"auto"} mt="50px" gap={20}>
                 {/* one */}
-                <Text padding={"15px"} className="project-card" right boxShadow={" rgba(0, 0, 0, 0.35) 0px 5px 15px;"}>
+                <Text marginTop={"15px"} padding={"15px"} className="project-card" right boxShadow={" rgba(0, 0, 0, 0.35) 0px 5px 15px;"}>
                     <Box style={Theme === 'light' ? light : dark} w={"100%"} borderRadius='lg' overflow='hidden' backgroundColor={"white"} mb={10} >
                         <Image w='full' src={FashionFlare} alt="Yoox" />
 
@@ -57,7 +57,7 @@ const Project = () => {
                     </Box>
                 </Text>
                 {/* two */}
-                <Text padding={"15px"} boxShadow={" rgba(0, 0, 0, 0.35) 0px 5px 15px;"}
+                <Text marginTop={"15px"} padding={"15px"} boxShadow={" rgba(0, 0, 0, 0.35) 0px 5px 15px;"}
                     className="project-card" right>
                     <Box style={Theme === 'light' ? light : dark} w={"100%"} borderRadius='lg' overflow='hidden' backgroundColor={"white"} mb={10} >
                         <Image w='full' src={Musafir} alt="Yoox" />
@@ -91,7 +91,7 @@ const Project = () => {
                     </Box>
                 </Text>
                 {/* three */}
-                <Text padding={"15px"} className="project-card" left boxShadow={" rgba(0, 0, 0, 0.35) 0px 5px 15px;"}>
+                <Text marginTop={"15px"} padding={"15px"} className="project-card" left boxShadow={" rgba(0, 0, 0, 0.35) 0px 5px 15px;"}>
                     <Box style={Theme === 'light' ? light : dark} w={"100%"} borderRadius='lg' overflow='hidden' backgroundColor={"white"} mb={10} >
                         <Image w='full' src={Indeed} alt="Indeed" />
                         <Box p='6'>
@@ -128,7 +128,7 @@ const Project = () => {
                     </Box>
                 </Text>
                 {/* four */}
-                <Text padding={"15px"} className="project-card" right boxShadow={" rgba(0, 0, 0, 0.35) 0px 5px 15px;"}>
+                <Text marginTop={"15px"} padding={"15px"} className="project-card" right boxShadow={" rgba(0, 0, 0, 0.35) 0px 5px 15px;"}>
                     <Box style={Theme === 'light' ? light : dark} w={"100%"} borderRadius='lg' overflow='hidden' backgroundColor={"white"} mb={10} >
                         <Image w='full' src={smatbot} alt="SmatBot" h={{ lg: '300px' }} />
                         <Box p='6'>
@@ -162,7 +162,7 @@ const Project = () => {
                     </Box>
                 </Text>
                 {/* fifth */}
-                <Text padding={"15px"} className="project-card" left boxShadow={" rgba(0, 0, 0, 0.35) 0px 5px 15px;"}>
+                <Text marginTop={"15px"} padding={"15px"} className="project-card" left boxShadow={" rgba(0, 0, 0, 0.35) 0px 5px 15px;"}>
                     <Box style={Theme === 'light' ? light : dark} w={"100%"} borderRadius='lg' overflow='hidden' backgroundColor={"white"} mb={10}  >
                         <Image w='full' src={Nordstrom} alt="NordStrom" h={{ lg: '300px' }} />
                         <Box p='6' >
