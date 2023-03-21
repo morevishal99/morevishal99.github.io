@@ -30,6 +30,7 @@ export default function About() {
             position as a Full stack web developer, alongside learning and growing
             with the company.
           </Text>
+          
           <Stack align={'center'} justify={'center'} direction={{ base: 'column', md: "row", lg: "row" }} mt={6}>
             <Text
               px={2}

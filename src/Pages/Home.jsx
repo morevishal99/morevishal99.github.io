@@ -1,13 +1,15 @@
-import { Box, Flex, Image, Text } from "@chakra-ui/react";
+import { Box, Button, Flex, Image, Text } from "@chakra-ui/react";
 import Profile from "../Images/Profile.png"
 import pdf from "../Pages/SkillsImages/Vishal_More_Resume.pdf"
 
 const Home = () => {
-    
+    const Resume = () => {
+        window.open(pdf);
+    }
     return (
         <>
             <Box height={{ base: '40px', md: '60px' }}></Box>
-            <Box id="home" 
+            <Box id="home"
                 w='100%' h={{
                     base: '580px', md: '470px',
                     lg: "580px", sm: '370px'
@@ -20,12 +22,15 @@ const Home = () => {
                         <Text color={"#3E865F"}>Hello World!</Text>
                         <Text id="user-detail-name" color={"#2F4E76"} fontSize={{ base: '25px', md: '40px', lg: '60px' }} > I AM VISHAL MORE</Text>
                         <Image id src="https://readme-typing-svg.herokuapp.com/?lines=Aspiring+Full-Stack+Web+Developer;Life-Long-Learner&color=red&center=true" alt={"desc"} />
-
-                        <a id="resume-button-2" href="https://drive.google.com/uc?export=download&id=1t42g2b_cVik65BL7Yni89_JzRYihcs94" >  <Text color={"teal"} fontSize={{ base: 'sm', md: 'md', lg: 'lg' }} mt={{ base: '10px', md: '0' }} colorScheme='teal' gap={1.5}>Download Resume </Text></a> 
+                       
+                        <a id="resume-link-2" href={"https://drive.google.com/file/d/1t42g2b_cVik65BL7Yni89_JzRYihcs94/view"} download  >
+                        <Button id="resume-button-2" onClick={Resume} color={"white"} fontSize={{ base: 'sm', md: 'md', lg: 'lg' }} mt={{ base: '10px', md: '0' }} colorScheme='teal' gap={1.5}>Download Resume</Button>
+                        </a>
+                       
                     </Box>
                     <Image borderRadius="10%" className="home-img" src={Profile} shadow='lg' mt={{ base: '10px', md: '0px' }} w={{ base: '100px', md: '200px', lg: '350px' }} alt="Vishal More" />
                 </Flex>
-               
+
             </Box>
 
         </>
@@ -34,4 +39,3 @@ const Home = () => {
 }
 export default Home;
 
-                   
