@@ -1,6 +1,7 @@
 import { Box, Button, Flex, Image, Text } from "@chakra-ui/react";
 import Profile from "../Images/Profile.png"
 import pdf from "../Pages/SkillsImages/Vishal_More_Resume.pdf"
+// import pdf from "../Pages/SkillsImages/Vishal_More_Resume.pdf"
 
 const Home = () => {
     const Resume = () => {
