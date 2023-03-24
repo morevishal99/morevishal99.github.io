@@ -101,7 +101,7 @@ export const Skills = () => {
                     <Box style={{ display: "flex", width: "50px", height: '150px', gap: "10px", textAlign: "center" }} >
                         <Box p='20px' borderRadius={5} display='flex' flexDirection="column" justifyContent="center" alignItems="center" backgroundColor='aliceblue' mr={5} >
                             <Image w={{ base: '45px', md: '80px', lg: '80px' }} src={npm} />
-                            <Text color={"grey"} padding="10px" fontSize={"20px"} fontWeight="600" textAlign="center">NODE PACKAGE MANAGER</Text>
+                            <Text color={"grey"} padding="10px" fontSize={"20px"} fontWeight="600" textAlign="center">NPM</Text>
                         </Box>
                     </Box>
                     <Box style={{ display: "flex", width: "50px", height: '150px', gap: "10px" }} >
