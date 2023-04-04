@@ -27,12 +27,12 @@ const Home = () => {
                         <Image id src="https://readme-typing-svg.herokuapp.com/?lines=Aspiring+Full-Stack+Web+Developer;Life-Long-Learner&color=red&center=true" alt={"desc"} />
                        
                         <Button id="resume-button-2" onClick={Resume}  color={"white"} fontSize={{ base: 'sm', md: 'md', lg: 'lg' }} mt={{ base: '10px', md: '0' }} colorScheme='teal' gap={1.5}>
-                            {/* <a id="resume-link-2" href={"https://drive.google.com/file/d/1t42g2b_cVik65BL7Yni89_JzRYihcs94/view"} download target="_blank" rel="noreferrer"   >
-                                Download Resume
-                            </a>o */}
-                            <a id="resume-link-2"  href={"https://drive.google.com/file/d/1t42g2b_cVik65BL7Yni89_JzRYihcs94/view"}  target="_blank" rel="noreferrer"   >
+                            <a id="resume-link-2" href={"https://drive.google.com/file/d/1t42g2b_cVik65BL7Yni89_JzRYihcs94/view"}  target="_blank" rel="noreferrer"   >
                                 Download Resume
                             </a>
+                            {/* <a id="resume-link-2"  href={pdf}  target="_blank" rel="noreferrer"   >
+                                Download Resume
+                            </a> */}
                         </Button>
                     </Box>
                     <Image borderRadius="10%" className="home-img" src={Profile} shadow='lg' mt={{ base: '10px', md: '0px' }} w={{ base: '100px', md: '200px', lg: '350px' }} alt="Vishal More" />

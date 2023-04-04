@@ -6,7 +6,7 @@ import { Box, Flex, IconButton, useDisclosure, Stack, Text, Image } from '@chakr
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
 import { BsFillMoonFill, BsFillSunFill } from 'react-icons/bs';
 import { AppContext } from '../Context/Theme';
-
+import style from "../Pages/Style/All.module.css"
 
 export const Navbar = ({ ProfileRef, AboutRef, SkillsRef, ProjectsRef, ContactRef }) => {
     const { isOpen, onOpen, onClose } = useDisclosure();
@@ -24,7 +24,7 @@ export const Navbar = ({ ProfileRef, AboutRef, SkillsRef, ProjectsRef, ContactRe
 
     return (
         <>
-            <Box  id="nav-menu" position='fixed' w='100%' zIndex='100' px={4} style={Theme === 'light' ? light : dark} className='ChackraNavBar' shadow='lg'>
+            <Box   id="nav-menu" position='fixed' w='100%' zIndex='100' px={4} style={Theme === 'light' ? light : dark} className='ChackraNavBar' shadow='lg'>
                    <Flex alignItems={'left'} justifyContent={'space-between'} >
                     <IconButton style={Theme === 'light' ? light : dark}
                         size='lg'
@@ -36,7 +36,7 @@ export const Navbar = ({ ProfileRef, AboutRef, SkillsRef, ProjectsRef, ContactRe
                         onClick={isOpen ? onClose : onOpen}
                     />
                     <Flex justifyContent={'space-between'} alignItems='center' w='90%' m={'auto'} >
-                        <Box p='5px'>
+                        <Box onClick={ProfileRef} p='5px'>
                             <Image h={{ base: '60px', md: '60px',lg:"80px" }}width={{ base: '120px', md: '140px',lg:"190px" }} src={ Theme === 'light' ? logol : logod } />
                         </Box>
                         <Flex as={'nav'} spacing={4} display={{ base: 'none', md: 'flex' }} gap='10px' w={{ base: '', md: '60%', lg: '40%' }}

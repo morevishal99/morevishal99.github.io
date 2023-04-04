@@ -1,0 +1,97 @@
+{
+    "language_framework": [
+      {
+        "id": "1",
+        "title": "JavaScript",
+        "src": "https://i.imgur.com/o6j9gor.png"
+      },
+      {
+        "id": "2",
+        "title": "HTML",
+        "src": "https://i.imgur.com/nPA7FDu.png"
+      },
+      {
+        "id": "3",
+        "title": "CSS",
+        "src": "https://i.imgur.com/jfkdTJ5.png"
+      },
+      {
+        "id": "4",
+        "title": "React",
+        "src": "https://i.imgur.com/mQR0hGj.png"
+      },
+      {
+        "id": "5",
+        "title": "Chakra UI",
+        "src": "https://i.imgur.com/HRd0AGj.png"
+      },
+      {
+        "id": "6",
+        "title": "Redux",
+        "src": "https://i.imgur.com/qt3UEI1.png"
+      },
+      {
+        "id": "7",
+        "title": "TypeScript",
+        "src": "https://i.imgur.com/J159u3t.png"
+      },
+      {
+        "id": "8",
+        "title": "Next.js",
+        "src": "https://i.imgur.com/3d2G8iu.png"
+      },
+      {
+        "id": "9",
+        "title": "Node.js",
+        "src": "https://i.imgur.com/3yOa5Cd.png"
+      },
+      {
+        "id": "10",
+        "title": "Express.js",
+        "src": "https://i.imgur.com/YHl5jjX.png"
+      },
+      {
+        "id": "11",
+        "title": "MongoDB",
+        "src": "https://i.imgur.com/Pb0GHBI.png"
+      },
+      {
+        "id": "15",
+        "title": "Mongoose",
+        "src": "https://i.imgur.com/dWh4C8f.png"
+      },
+      {
+        "id": "12",
+        "title": "Cypress",
+        "src": "https://i.imgur.com/aD57uar.png"
+      },
+      {
+        "id": "13",
+        "title": "Jest",
+        "src": "https://i.imgur.com/PEqq9Jv.png"
+      }
+    ],
+    "tools": [
+      {
+        "id": "t1",
+        "title": "VS Code",
+        "src": "https://i.imgur.com/mFxsWVI.png"
+      },
+      {
+        "id": "t2",
+        "title": "GitHub",
+        "src": "https://i.imgur.com/LdgX1nB.png"
+      },
+      {
+        "id": "t3",
+        "title": "Netlify",
+        "src": "https://i.imgur.com/bmZxoqC.png"
+      },
+      {
+        "id": "t4",
+        "title": "Vercel",
+        "src": "https://i.imgur.com/qojJhY2.png"
+      }
+    ]
+   
+  }
