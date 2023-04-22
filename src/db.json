@@ -1,97 +1,167 @@
 {
-    "language_framework": [
-      {
-        "id": "1",
-        "title": "JavaScript",
-        "src": "https://i.imgur.com/o6j9gor.png"
-      },
-      {
-        "id": "2",
-        "title": "HTML",
-        "src": "https://i.imgur.com/nPA7FDu.png"
-      },
-      {
-        "id": "3",
-        "title": "CSS",
-        "src": "https://i.imgur.com/jfkdTJ5.png"
-      },
-      {
-        "id": "4",
-        "title": "React",
-        "src": "https://i.imgur.com/mQR0hGj.png"
-      },
-      {
-        "id": "5",
-        "title": "Chakra UI",
-        "src": "https://i.imgur.com/HRd0AGj.png"
-      },
-      {
-        "id": "6",
-        "title": "Redux",
-        "src": "https://i.imgur.com/qt3UEI1.png"
-      },
-      {
-        "id": "7",
-        "title": "TypeScript",
-        "src": "https://i.imgur.com/J159u3t.png"
-      },
-      {
-        "id": "8",
-        "title": "Next.js",
-        "src": "https://i.imgur.com/3d2G8iu.png"
-      },
-      {
-        "id": "9",
-        "title": "Node.js",
-        "src": "https://i.imgur.com/3yOa5Cd.png"
-      },
-      {
-        "id": "10",
-        "title": "Express.js",
-        "src": "https://i.imgur.com/YHl5jjX.png"
-      },
-      {
-        "id": "11",
-        "title": "MongoDB",
-        "src": "https://i.imgur.com/Pb0GHBI.png"
-      },
-      {
-        "id": "15",
-        "title": "Mongoose",
-        "src": "https://i.imgur.com/dWh4C8f.png"
-      },
-      {
-        "id": "12",
-        "title": "Cypress",
-        "src": "https://i.imgur.com/aD57uar.png"
-      },
-      {
-        "id": "13",
-        "title": "Jest",
-        "src": "https://i.imgur.com/PEqq9Jv.png"
-      }
-    ],
-    "tools": [
-      {
-        "id": "t1",
-        "title": "VS Code",
-        "src": "https://i.imgur.com/mFxsWVI.png"
-      },
-      {
-        "id": "t2",
-        "title": "GitHub",
-        "src": "https://i.imgur.com/LdgX1nB.png"
-      },
-      {
-        "id": "t3",
-        "title": "Netlify",
-        "src": "https://i.imgur.com/bmZxoqC.png"
-      },
-      {
-        "id": "t4",
-        "title": "Vercel",
-        "src": "https://i.imgur.com/qojJhY2.png"
-      }
-    ]
-   
-  }
+  "projects": [
+    {
+      "id": 1,
+      "title": "Ajio clone",
+      "image": "https://user-images.githubusercontent.com/107456969/233445204-97ba0e23-7669-427c-abaf-7de005534d84.png",
+      "github": "https://github.com/morevishal99/Ajio-Clone",
+      "deployed": "https://frontend-ivory-tau.vercel.app/",
+      "description": "Ajio is an e-commerce website that primarily sells and delivers clothing  accessories and many more products.",
+      "techstack": [
+        "React JS",
+        "Redux",
+        "Chakra UI",
+        "Node Js ",
+        "Express Js",
+        "Mongo Db"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "MakeMyTrip Clone",
+      "image": "https://user-images.githubusercontent.com/107456969/213979645-2a09e685-d162-4418-8cf8-a84686e9313f.png",
+      "github": "https://github.com/morevishal99/MakeMyTrip-Clone",
+      "deployed": "https://musafir-travel.netlify.app/",
+      "description": "Musafir is a website for tours and travel created with one thought that is to empower Indian traveler with instant bookings and comprehensive choices.",
+      "techstack": ["React JS", "Redux", "Material UI"]
+    },
+    {
+      "id": 3,
+      "title": "Indeed",
+      "image": "https://user-images.githubusercontent.com/107826861/212679992-402edc37-218b-4de5-8e94-653c4cbf5510.png",
+      "github": "https://github.com/morevishal99/Indeed_Clone",
+      "deployed": "https://jade-diii.netlify.app/",
+      "description": "The site allows jobseekers to search for jobs by location, job type, salary, and keywords. Employers can post jobs for free and use the site to search for potential candidates. Indeed also offers a variety of resources to employers, such as job posting tools, resume search tools, and employer branding tools.",
+      "techstack": ["HTML", "CSS", "JAVASCRIPT"]
+    },
+    {
+      "id": 3,
+      "title": "Meesho Clone",
+      "image": "https://user-images.githubusercontent.com/107456969/229345775-58ff7a33-a2b9-442b-9ca1-b086b1d9cbf0.png",
+      "github": "https://github.com/morevishal99/ShopVibes-meesho-clone-",
+      "deployed": "https://shopvibes.vercel.app/",
+      "description": "Meesho is a shopping and lifestyle brand which is the ultimate destination for the latest fashion styles that are handpicked and are available at the best price that one can find anywhere and also you can do business with Meesho.com",
+      "techstack": [
+        "React JS",
+        "Redux",
+        "Chakra UI",
+        "Node Js ",
+        "Express Js",
+        "Mongo Db"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Smatbot",
+      "image": "https://user-images.githubusercontent.com/107456969/233796502-3e0190f9-2cd4-4b05-81f8-e3baa411197b.png",
+      "github": "https://github.com/morevishal99/smatbot.com-clone",
+      "deployed": "https://elaborate-vacherin-013d66.netlify.app/",
+      "description": " A website which provides Automated chatbots, Customized chatbot solutions, Affordable pricing and Conversational AI Chatbot to Acquire, Engage & Support Customers.",
+      "techstack": ["HTML", "CSS", "JAVASCRIPT "]
+    },
+    {
+      "id": 5,
+      "title": "Nordstrom Clone",
+      "image": "https://user-images.githubusercontent.com/107456969/222657411-c34b0a12-2f21-4fc8-a0f6-f5ccc381acb6.png",
+      "github": "https://github.com/morevishal99/NordStrom-Clone",
+      "deployed": "https://musical-lolly-1b4f8a.netlify.app/",
+      "description": "An e-commerce website that provides large number of clothing accessories,beauty products and many more",
+      "techstack": ["HTML", "CSS", "JAVASCRIPT"]
+    }
+    
+  ],
+  "language": [
+    {
+      "id": "1",
+      "title": "JavaScript",
+      "src": "https://i.imgur.com/o6j9gor.png"
+    },
+    {
+      "id": "2",
+      "title": "HTML",
+      "src": "https://i.imgur.com/nPA7FDu.png"
+    },
+    {
+      "id": "3",
+      "title": "CSS",
+      "src": "https://i.imgur.com/jfkdTJ5.png"
+    },
+    {
+      "id": "4",
+      "title": "React",
+      "src": "https://i.imgur.com/mQR0hGj.png"
+    },
+    {
+      "id": "5",
+      "title": "Chakra UI",
+      "src": "https://i.imgur.com/HRd0AGj.png"
+    },
+    {
+      "id": "6",
+      "title": "Redux",
+      "src": "https://i.imgur.com/qt3UEI1.png"
+    },
+    {
+      "id": "7",
+      "title": "TypeScript",
+      "src": "https://i.imgur.com/J159u3t.png"
+    },
+    {
+      "id": "8",
+      "title": "Next.js",
+      "src": "https://i.imgur.com/3d2G8iu.png"
+    },
+    {
+      "id": "9",
+      "title": "Node.js",
+      "src": "https://i.imgur.com/3yOa5Cd.png"
+    },
+    {
+      "id": "10",
+      "title": "Express.js",
+      "src": "https://i.imgur.com/YHl5jjX.png"
+    },
+    {
+      "id": "11",
+      "title": "MongoDB",
+      "src": "https://i.imgur.com/Pb0GHBI.png"
+    },
+    {
+      "id": "15",
+      "title": "Mongoose",
+      "src": "https://i.imgur.com/dWh4C8f.png"
+    },
+    {
+      "id": "12",
+      "title": "Cypress",
+      "src": "https://i.imgur.com/aD57uar.png"
+    },
+    {
+      "id": "13",
+      "title": "Jest",
+      "src": "https://i.imgur.com/PEqq9Jv.png"
+    }
+  ],
+  "tools": [
+    {
+      "id": "t1",
+      "title": "VS Code",
+      "src": "https://i.imgur.com/mFxsWVI.png"
+    },
+    {
+      "id": "t2",
+      "title": "GitHub",
+      "src": "https://i.imgur.com/LdgX1nB.png"
+    },
+    {
+      "id": "t3",
+      "title": "Netlify",
+      "src": "https://i.imgur.com/bmZxoqC.png"
+    },
+    {
+      "id": "t4",
+      "title": "Vercel",
+      "src": "https://i.imgur.com/qojJhY2.png"
+    }
+  ]
+}

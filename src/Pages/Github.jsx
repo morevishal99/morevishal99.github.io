@@ -6,7 +6,7 @@ const Github = () => {
   const { Theme } = useContext(AppContext)
   return (
     <>
-      <Text color='goldenrod' fontSize={{ base: '22px', md: '22px', lg: '40px' }} fontWeight={{ base: '600', md: '700' }} textAlign='center' >Github Stats</Text>
+      <Text style={{textShadow:"2px 2px red"}} color='goldenrod' fontSize={{ base: '22px', md: '22px', lg: '40px' }} fontWeight={{ base: '600', md: '700' }} textAlign='center' >Github Stats</Text>
       <Flex w={{ base: '70%', md: '80%', lg: '80%' }} m='auto' mt={{ base: '15px', md: '25px' }} justifyContent='center' alignItems='center'>
         <Box>
           <GitHubCalendar

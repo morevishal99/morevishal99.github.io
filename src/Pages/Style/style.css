@@ -1,0 +1,18 @@
+.project-card{
+  animation-name: example   ;
+  animation-duration: 10s;
+  /* transition:linear ease-in-out 2s ; */
+  animation-iteration-count: infinite;
+ 
+}
+
+
+@keyframes example {
+    0%   {background-color: rgb(220, 56, 56);}
+    25%  {background-color: rgb(231, 231, 61);}
+    50%  {background-color: rgb(42, 85, 215);}
+    100% {background-color: green;}
+  
+  }
+ 
+ 

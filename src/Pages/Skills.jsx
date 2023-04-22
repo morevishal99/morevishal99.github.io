@@ -8,7 +8,7 @@ import css from "./SkillsImages/css.png"
 import github from "./SkillsImages/github.png"
 import git from "./SkillsImages/git.png"
 import postman from "./SkillsImages/Postman.png"
-// import html from "./SkillsImages/html5.png"
+import html from "./SkillsImages/html5.png"
 import javascript from "./SkillsImages/javascript.png"
 import node from "./SkillsImages/node js.png"
 import npm from "./SkillsImages/npm.png"
@@ -68,17 +68,17 @@ export const Skills = () => {
 
     return (
         <> 
-            <Text mt={{ sm: '20%', md: '10%', lg: '15%' }} color='goldenrod' fontSize={{ base: '22px', md: '22px', lg: '40px' }} fontWeight={{ base: '600', md: '700' }} textAlign='center' >Skills</Text>
+            <Text style={{textShadow:"2px 2px red"}} mt={{ sm: '20%', md: '10%', lg: '15%' }} color='goldenrod' fontSize={{ base: '22px', md: '22px', lg: '40px' }} fontWeight={{ base: '600', md: '700' }} textAlign='center' >Skills</Text>
             <Box className="grad1"  id="skills" w="80%" m='auto' mt={"40px"}>
                 <Slider {...settings} style={Theme === 'light' ? light : dark}>
-                    {/* <Box style={{ display: "flex", width: "50px", height: '150px' }} >
-                        <Box className="skills-card" p='20px' borderRadius={5} display='flex' flexDirection="column" justifyContent="center" alignItems="center" backgroundColor='aliceblue' mr={5}  >
+                    <Box style={{ display: "flex", width: "50px", height: '150px' }} >
+                        <Box className="skills-cards" p='20px' borderRadius={5} display='flex' flexDirection="column" justifyContent="center" alignItems="center" backgroundColor='aliceblue' mr={5}  >
                             <Image  w={{ base: '45px', md: '60px', lg: '80px' }} src={html} />
                             <Text  color={"grey"} padding="10px" fontSize={"20px"} fontWeight="600">HTML</Text>
                         </Box>
-                    </Box> */}
+                    </Box>
                     <Box style={{ display: "flex", width: "50px", height: '150px' }} >
-                        <Box p='20px' borderRadius={5} display='flex' flexDirection="column" justifyContent="center" alignItems="center" backgroundColor='aliceblue' mr={5}  >
+                        <Box className="skills-cards" p='20px' borderRadius={5} display='flex' flexDirection="column" justifyContent="center" alignItems="center" backgroundColor='aliceblue' mr={5}  >
                             <Image className="skills-card-img" w={{ base: '45px', md: '60px', lg: '60px' }} src={css} />
                             <Text className="skills-card-name"color={"grey"} padding="10px" fontSize={"20px"} fontWeight="600">CSS</Text>
                         </Box>
@@ -155,9 +155,9 @@ export const Skills = () => {
 
 <Box >
       <Box className="skillsWrapper">
-        <h1 className="skills-heading">Languages / Frameworks</h1>
+        <h1 className="skills-heading">Languages </h1>
         <Box className="skillsTechnologiesDiv">
-          {data.language_framework.map((elm) => (
+          {data.language.map((elm) => (
             <TechStack key={elm.id} {...elm} />
           ))}
         </Box>

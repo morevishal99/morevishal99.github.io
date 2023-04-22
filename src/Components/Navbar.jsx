@@ -6,7 +6,7 @@ import { Box, Flex, IconButton, useDisclosure, Stack, Text, Image } from '@chakr
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
 import { BsFillMoonFill, BsFillSunFill } from 'react-icons/bs';
 import { AppContext } from '../Context/Theme';
-import style from "../Pages/Style/All.module.css"
+// import style from "../Pages/Style/All.module.css"
 
 export const Navbar = ({ ProfileRef, AboutRef, SkillsRef, ProjectsRef, ContactRef }) => {
     const { isOpen, onOpen, onClose } = useDisclosure();
