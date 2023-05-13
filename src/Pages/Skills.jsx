@@ -4,19 +4,20 @@ import React, { useContext } from "react";
 import Slider from "react-slick";
 import { Box, Image, Text } from "@chakra-ui/react";
 import { AppContext } from "../Context/Theme";
-import css from "./SkillsImages/css.png"
-import github from "./SkillsImages/github.png"
-import git from "./SkillsImages/git.png"
-import postman from "./SkillsImages/Postman.png"
-import html from "./SkillsImages/html5.png"
-import javascript from "./SkillsImages/javascript.png"
-import node from "./SkillsImages/node js.png"
-import npm from "./SkillsImages/npm.png"
-import react from "./SkillsImages/react.png"
-import typescript from "./SkillsImages/typescript.png"
-import mongo from "./SkillsImages/mongodb.png"
-import redux from "./SkillsImages/redux.png"
-import express from "./SkillsImages/express.png"
+// import css from "../SkillsImages/css.png"
+import css from "../SkillsImages/css.png"
+import github from "../SkillsImages/github.png"
+import git from "../SkillsImages/git.png"
+import postman from "../SkillsImages/Postman.png"
+import html from "../SkillsImages/html5.png"
+import javascript from "../SkillsImages/javascript.png"
+import node from "../SkillsImages/node js.png"
+import npm from "../SkillsImages/npm.png"
+import react from "../SkillsImages/react.png"
+import typescript from "../SkillsImages/typescript.png"
+import mongo from "../SkillsImages/mongodb.png"
+import redux from "../SkillsImages/redux.png"
+import express from "../SkillsImages/express.png"
 import data from "../db.json";
 import "./skills.css";
 import TechStack from "./TechStack";
