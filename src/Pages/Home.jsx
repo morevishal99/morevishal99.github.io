@@ -6,7 +6,8 @@ import Profile from "../Images/Profile.png"
 const Home = () => {
     const Resume = () => {
         // window.open(pdf);
-        window.location.href = "https://drive.google.com/uc?export=download&id=1t42g2b_cVik65BL7Yni89_JzRYihcs94";
+        // window.location.href = "https://drive.google.com/uc?export=download&id=1t42g2b_cVik65BL7Yni89_JzRYihcs94";
+        window.location.href = "https://drive.google.com/uc?export=download&id=1MT0lyDc2sz4cRTEJHsArdDrLWbebLhE9";
         // window.open("https://drive.google.com/file/d/1t42g2b_cVik65BL7Yni89_JzRYihcs94/view");
     }
     return (
@@ -27,7 +28,8 @@ const Home = () => {
                         <Image id src="https://readme-typing-svg.herokuapp.com/?lines=Aspiring+Full-Stack+Web+Developer;Life-Long-Learner&color=red&center=true" alt={"desc"} />
 
                         <Button id="resume-button-2" onClick={Resume} color={"white"} fontSize={{ base: 'sm', md: 'md', lg: 'lg' }} mt={{ base: '10px', md: '0' }} colorScheme='teal' gap={1.5}>
-                            <a id="resume-link-2" href={"https://drive.google.com/file/d/1t42g2b_cVik65BL7Yni89_JzRYihcs94/view"} target="_blank" rel="noreferrer"   >
+                            {/* <a id="resume-link-2" href={"https://drive.google.com/file/d/1t42g2b_cVik65BL7Yni89_JzRYihcs94/view"} target="_blank" rel="noreferrer"   > */}
+                            <a id="resume-link-2" href={"https://drive.google.com/file/d/1MT0lyDc2sz4cRTEJHsArdDrLWbebLhE9/view?usp=share_link"} target="_blank" rel="noreferrer"   >
                                 Download Resume
                             </a>
                             {/* <a id="resume-link-2"  href={pdf}  target="_blank" rel="noreferrer"   >

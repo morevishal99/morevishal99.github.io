@@ -47,7 +47,8 @@ export const Navbar = ({ ProfileRef, AboutRef, SkillsRef, ProjectsRef, ContactRe
                             <Text id="projects" className="nav-link projects" onClick={ProjectsRef} cursor='pointer'>Project</Text>
                             <Text className="nav-link contact" onClick={ContactRef} cursor='pointer'>Contact</Text>
                             
-                            <a id="resume-button-1" className="nav-link resume" href="https://drive.google.com/uc?export=download&id=1t42g2b_cVik65BL7Yni89_JzRYihcs94" target={"_blank"} rel="noreferrer" > Resume </a> 
+                            <a id="resume-button-1" className="nav-link resume" href="https://drive.google.com/uc?export=download&id=1MT0lyDc2sz4cRTEJHsArdDrLWbebLhE9" target={"_blank"} rel="noreferrer" > Resume </a> 
+                            {/* <a id="resume-button-1" className="nav-link resume" href="https://drive.google.com/file/d/1MT0lyDc2sz4cRTEJHsArdDrLWbebLhE9/view?usp=share_link" target={"_blank"} rel="noreferrer" > Resume </a>  */}
                         </Flex>
                     </Flex>
                     <Box width='10%' mt={"20px"} justifyContent={'center'} display='flex'>
@@ -62,7 +63,7 @@ export const Navbar = ({ ProfileRef, AboutRef, SkillsRef, ProjectsRef, ContactRe
                             <Text id="skills" className="nav-link skills" onClick={SkillsRef} cursor='pointer'>Skills</Text>
                             <Text id="projects" className="nav-link projects" onClick={ProjectsRef} cursor='pointer'>Project</Text>
                             <Text id="contact" className="nav-link contact" onClick={ContactRef} cursor='pointer'>Contact</Text>
-                            <a  className="nav-link resume" href="https://drive.google.com/file/d/1t42g2b_cVik65BL7Yni89_JzRYihcs94/view" target='_blank' rel="noreferrer">Resume </a>
+                            <a  className="nav-link resume" href="https://drive.google.com/file/d/1MT0lyDc2sz4cRTEJHsArdDrLWbebLhE9/view?usp=share_link" target='_blank' rel="noreferrer">Resume </a>
                         </Stack>
                     </Box>
                 ) : null}

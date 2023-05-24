@@ -68,7 +68,49 @@
       "description": "An e-commerce website that provides large number of clothing accessories,beauty products and many more",
       "techstack": ["HTML", "CSS", "JAVASCRIPT"]
     }
-    
+  ],
+  "miniprojects": [
+    {
+      "id": 1,
+      "title": "Todo App",
+      "image": "https://user-images.githubusercontent.com/107456969/222358712-f33b16af-025e-4080-82d8-254ee2045bf7.png",
+      "github": "https://github.com/morevishal99/Todo_App_Using_React",
+      "deployed": "https://todo-app-vishal-more.vercel.app/",
+      "description": "Created a simple todo app where  user can add todo and access their own todo ",
+      "techstack": [
+        "React JS",
+        "Chakra UI",
+        "Node Js ",
+        "Express Js",
+        "Mongo Db"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Youtube Clone",
+      "image": "https://user-images.githubusercontent.com/107456969/240374495-46e6935d-988c-4ae7-af9c-13114a0f6796.png",
+      "github": "https://github.com/morevishal99/Youtubeclone",
+      "deployed": "https://youtubeclone-tan.vercel.app/",
+      "description": "",
+      "techstack": [
+        "React JS",
+        "Chakra UI"
+        
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Weather App",
+      "image": "https://user-images.githubusercontent.com/107456969/223466343-8e168199-00cc-470f-ab38-e3fad181164d.png",
+      "github": "https://github.com/morevishal99/Weather-App",
+      "deployed": "https://sage-capybara-34d376.netlify.app/",
+      "description": "A simple weather app where you can see the weather related information  of the city",
+      "techstack": [
+        "React JS",
+        "Chakra UI"
+       
+      ]
+    }
   ],
   "language": [
     {
