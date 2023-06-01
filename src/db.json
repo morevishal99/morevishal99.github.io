@@ -17,6 +17,22 @@
       ]
     },
     {
+      "id": 4,
+      "title": "Meesho Clone",
+      "image": "https://user-images.githubusercontent.com/107456969/229345775-58ff7a33-a2b9-442b-9ca1-b086b1d9cbf0.png",
+      "github": "https://github.com/morevishal99/ShopVibes-meesho-clone-",
+      "deployed": "https://shopvibes.vercel.app/",
+      "description": "Meesho is a shopping and lifestyle brand which is the ultimate destination for the latest fashion styles that are handpicked and are available at the best price that one can find anywhere and also you can do business with Meesho.com",
+      "techstack": [
+        "React JS",
+        "Redux",
+        "Chakra UI",
+        "Node Js ",
+        "Express Js",
+        "Mongo Db"
+      ]
+    },
+    {
       "id": 2,
       "title": "MakeMyTrip Clone",
       "image": "https://user-images.githubusercontent.com/107456969/213979645-2a09e685-d162-4418-8cf8-a84686e9313f.png",
@@ -35,23 +51,7 @@
       "techstack": ["HTML", "CSS", "JAVASCRIPT"]
     },
     {
-      "id": 3,
-      "title": "Meesho Clone",
-      "image": "https://user-images.githubusercontent.com/107456969/229345775-58ff7a33-a2b9-442b-9ca1-b086b1d9cbf0.png",
-      "github": "https://github.com/morevishal99/ShopVibes-meesho-clone-",
-      "deployed": "https://shopvibes.vercel.app/",
-      "description": "Meesho is a shopping and lifestyle brand which is the ultimate destination for the latest fashion styles that are handpicked and are available at the best price that one can find anywhere and also you can do business with Meesho.com",
-      "techstack": [
-        "React JS",
-        "Redux",
-        "Chakra UI",
-        "Node Js ",
-        "Express Js",
-        "Mongo Db"
-      ]
-    },
-    {
-      "id": 4,
+      "id": 5,
       "title": "Smatbot",
       "image": "https://user-images.githubusercontent.com/107456969/233796502-3e0190f9-2cd4-4b05-81f8-e3baa411197b.png",
       "github": "https://github.com/morevishal99/smatbot.com-clone",
@@ -60,7 +60,7 @@
       "techstack": ["HTML", "CSS", "JAVASCRIPT "]
     },
     {
-      "id": 5,
+      "id": 6,
       "title": "Nordstrom Clone",
       "image": "https://user-images.githubusercontent.com/107456969/222657411-c34b0a12-2f21-4fc8-a0f6-f5ccc381acb6.png",
       "github": "https://github.com/morevishal99/NordStrom-Clone",
@@ -92,11 +92,7 @@
       "github": "https://github.com/morevishal99/Youtubeclone",
       "deployed": "https://youtubeclone-tan.vercel.app/",
       "description": "",
-      "techstack": [
-        "React JS",
-        "Chakra UI"
-        
-      ]
+      "techstack": ["React JS", "Chakra UI"]
     },
     {
       "id": 2,
@@ -105,11 +101,7 @@
       "github": "https://github.com/morevishal99/Weather-App",
       "deployed": "https://sage-capybara-34d376.netlify.app/",
       "description": "A simple weather app where you can see the weather related information  of the city",
-      "techstack": [
-        "React JS",
-        "Chakra UI"
-       
-      ]
+      "techstack": ["React JS", "Chakra UI"]
     }
   ],
   "language": [
