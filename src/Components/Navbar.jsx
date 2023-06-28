@@ -44,7 +44,7 @@ export const Navbar = ({ ProfileRef, AboutRef, SkillsRef, ProjectsRef, ContactRe
                         <Box onClick={ProfileRef} p='5px'>
                             <Image h={{ base: '60px', md: '60px', lg: "80px" }} width={{ base: '120px', md: '140px', lg: "190px" }} src={Theme === 'light' ? logol : logod} />
                         </Box>
-                        <Flex as={'nav'} spacing={4} display={{ base: 'none', md: 'flex' }} gap='10px' w={{ base: '', md: '60%', lg: '40%' }}
+                        <Flex  as={'nav'} spacing={4} display={{ base: 'none', md: 'flex' }} gap='10px' w={{ base: '', md: '60%', lg: '40%' }}
                             justifyContent='space-between' alignItems='center' color='goldenrod' fontWeight='650'>
                             <Text className="nav-link home" onClick={ProfileRef} cursor='pointer'>Home</Text>
                             <Text className="nav-link about" onClick={AboutRef} cursor='pointer'>About</Text>

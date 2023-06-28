@@ -69,7 +69,7 @@ export const Skills = () => {
 
     return (
         <> 
-            <Text style={{textShadow:"2px 2px red"}} mt={{ sm: '20%', md: '10%', lg: '15%' }} color='goldenrod' fontSize={{ base: '22px', md: '22px', lg: '40px' }} fontWeight={{ base: '600', md: '700' }} textAlign='center' >Skills</Text>
+            <Text textShadow={{base:"1px 1.4px red",sm:"2px 2px red"}} mt={{ sm: '20%', md: '10%', lg: '15%' }} color='goldenrod' fontSize={{ base: '22px', md: '22px', lg: '40px' }} fontWeight={{ base: '600', md: '700' }} textAlign='center' >Skills</Text>
             <Box className="grad1"  id="skills" w="80%" m='auto' mt={"40px"}>
                 <Slider {...settings} style={Theme === 'light' ? light : dark}>
                     <Box style={{ display: "flex", width: "50px", height: '150px' }} >

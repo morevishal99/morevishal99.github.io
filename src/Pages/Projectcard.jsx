@@ -2,6 +2,7 @@ import { Badge, Box, Flex, Image, Text } from '@chakra-ui/react'
 import React, { useContext } from 'react'
 import { AppContext } from '../Context/Theme';
 import "./Style/style.css"
+import { Tilt } from 'react-tilt'
 const Projectcard = ({ el }) => {
     const { Theme } = useContext(AppContext);
     const light = {
@@ -14,7 +15,20 @@ const Projectcard = ({ el }) => {
     }
     const lightc = "#36454f"
     const darkc = '#92c7c7'
+    const defaultOptions = {
+        reverse:        false,  // reverse the tilt direction
+        max:            35,     // max tilt rotation (degrees)
+        perspective:    1000,   // Transform perspective, the lower the more extreme the tilt gets.
+        scale:          1.1,    // 2 = 200%, 1.5 = 150%, etc..
+        speed:          2000,   // Speed of the enter/exit transition
+        transition:     true,   // Set a transition on enter/exit.
+        axis:           null,   // What axis should be disabled. Can be X or Y.
+        reset:          true,    // If the tilt effect has to be reset on exit.
+        easing:         "cubic-bezier(.03,.98,.52,.99)",    // Easing on enter/exit.
+    }
     return (
+        <Tilt options={defaultOptions}>
+
         <Box marginTop={"15px"} padding={"15px"} className="project-card" borderRadius='20px' right boxShadow={" rgba(0, 0, 0, 0.35) 0px 5px 15px;"}>
             <Box className='image'   style={Theme === 'light' ? light : dark} w={"100%"} borderRadius='lg' overflow='hidden' backgroundColor={"white"} mb={10} >
                {/* image of website */}
@@ -47,7 +61,8 @@ const Projectcard = ({ el }) => {
                 </Flex>
             </Box>
         </Box>
-        // </Box>
+        
+        </Tilt>
     )
 }
 

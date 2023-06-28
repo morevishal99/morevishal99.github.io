@@ -5,6 +5,8 @@ import { GrMail } from 'react-icons/gr'
 import { useContext } from "react";
 import { AppContext } from "../Context/Theme";
 // import style from "./Style/All.module.css"
+// import "./style/Contact.css"
+import "./Style/Contact.css"
 export default function Contact() {
   const { Theme } = useContext(AppContext);
   const light = {
@@ -16,35 +18,56 @@ export default function Contact() {
     color: 'goldenrod'
   }
   return (
-    <><Box >
-      {/* className={style.grad} */}
-      <Text style={Theme === 'light' ? light : dark} textAlign='center' color='goldenrod' fontSize={{ base: '20px', md: '22px', lg: '40px' }} fontWeight={{ base: '600', md: '700' }}>Contact</Text>
-      <Box id="contact" style={Theme === 'light' ? light : dark} p={{ base: '10px', md: '30px' }} color="teal" >
-        <Flex w={{ base: '100%', md: '70%', lg: '80%' }} m='auto' justifyContent='space-between' fontSize={{ base: '22px', md: '30px', lg: '50px' }} mt='10px' padding={"20px"} mb="20px">
-          <Flex flexDirection="column" alignItems="center" gap={3} >
-            <Text color="teal" id="contact-linkedin" >  <a href="https://www.linkedin.com/in/vishalmore99/" target='_blank' rel="noreferrer"> <BsLinkedin /></a></Text>
-            <Text style={{ textShadow: "1px 1px red" }} color=" rgb(0, 163, 196)" fontSize={{ base: '7px', md: '11px', lg: '25px' }}>Vishal More</Text>
-          </Flex>
+    <>
 
-          <Flex flexDirection="column" alignItems="center" gap={3}>
-            <Text color="teal" id="contact-github">   <a href="https://github.com/morevishal99" target='_blank' rel="noreferrer"><BsGithub /></a></Text>
-            <Text style={{ textShadow: "1px 1px red" }} color=" rgb(0, 163, 196)" fontSize={{ base: '7px', md: '11px', lg: '25px' }}>Vishal More</Text>
-          </Flex>
 
-          <Flex flexDirection="column" alignItems="center" gap={3}>
-            <Text color="teal" id="contact-phone"> <a href="tel:+919766555424" ><AiOutlinePhone /></a></Text>
-            <Text style={{ textShadow: "1px 1px red" }} color=" rgb(0, 163, 196)" fontSize={{ base: '7px', md: '11px', lg: '25px' }}>+91 9168989962</Text>
-          </Flex>
+      <Box >
+        {/* classNameName={style.grad} */}
+        <Text textShadow={{ base: "1px 1.4px red", sm: "2px 2px red" }} style={Theme === 'light' ? light : dark} textAlign='center' color='goldenrod' fontSize={{ base: '20px', md: '22px', lg: '40px' }} fontWeight={{ base: '600', md: '700' }}>Contact</Text>
+        <Box id="contact" style={Theme === 'light' ? light : dark} p={{ base: '10px', md: '30px' }} color="teal" >
+          <Flex w={{ base: '100%', md: '70%', lg: '80%' }} m='auto' justifyContent='space-between' fontSize={{ base: '22px', md: '30px', lg: '50px' }} mt='10px' padding={"20px"} mb="20px">
+            <Flex flexDirection="column" alignItems="center" gap={3} >
+              <Text color="teal" id="contact-linkedin" >  <a href="https://www.linkedin.com/in/vishalmore99/" target='_blank' rel="noreferrer"> <BsLinkedin /></a></Text>
+              <Text style={{ textShadow: "1px 1px red" }} color=" rgb(0, 163, 196)" fontSize={{ base: '7px', md: '11px', lg: '25px' }}>Vishal More</Text>
+            </Flex>
 
-          <Flex flexDirection="column" alignItems="center" gap={3}>
-            <Text color="teal" id="contact-email" >  <a href="mailto:morevishal079@gmail.com"><GrMail /></a></Text>
-            <Text style={{ textShadow: "1px 1px red" }} color=" rgb(0, 163, 196)" fontSize={{ base: '7px', md: '11px', lg: '25px' }}>morevishal079@gmail.com</Text>
+            <Flex flexDirection="column" alignItems="center" gap={3}>
+              <Text color="teal" id="contact-github">   <a href="https://github.com/morevishal99" target='_blank' rel="noreferrer"><BsGithub /></a></Text>
+              <Text style={{ textShadow: "1px 1px red" }} color=" rgb(0, 163, 196)" fontSize={{ base: '7px', md: '11px', lg: '25px' }}>Vishal More</Text>
+            </Flex>
+
+            <Flex flexDirection="column" alignItems="center" gap={3}>
+              <Text color="teal" id="contact-phone"> <a href="tel:+919766555424" ><AiOutlinePhone /></a></Text>
+              <Text style={{ textShadow: "1px 1px red" }} color=" rgb(0, 163, 196)" fontSize={{ base: '7px', md: '11px', lg: '25px' }}>+91 9168989962</Text>
+            </Flex>
+
+            <Flex flexDirection="column" alignItems="center" gap={3}>
+              <Text color="teal" id="contact-email" >  <a href="mailto:morevishal079@gmail.com"><GrMail /></a></Text>
+              <Text style={{ textShadow: "1px 1px red" }} color=" rgb(0, 163, 196)" fontSize={{ base: '7px', md: '11px', lg: '25px' }}>morevishal079@gmail.com</Text>
+            </Flex>
           </Flex>
-        </Flex>
+        </Box>
+        <Box style={Theme === 'light' ? light : dark} className="waveWrapper waveAnimation">
+          <Box className="waveWrapperInner bgTop">
+            <Box className="wave waveTop" style={{
+              backgroundImage: "URL('http://front-end-noobs.com/jecko/img/wave-mid.png')"
+            }}></Box>
+          </Box>
+
+          <Box className="waveWrapperInner bgMiddle">
+            <Box className="wave waveMiddle" style={{
+              backgroundImage: "URL('http://front-end-noobs.com/jecko/img/wave-mid.png')"
+            }}></Box>
+          </Box>
+
+          <Box className="waveWrapperInner bgBottom">
+            <Box className="wave waveBottom" style={{
+              backgroundImage: "URL('http://front-end-noobs.com/jecko/img/wave-mid.png')"
+            }}></Box>
+          </Box>
+        </Box>
+
       </Box>
-
-    </Box>
-
 
     </>
   )

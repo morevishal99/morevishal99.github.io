@@ -14,7 +14,7 @@ export default function About() {
   return (
     <>
       <Box id="about" className="about section">
-        <Text style={{ textShadow: "2px 2px red" }} mt={{ sm: '20%', md: '10%', lg: '15%' }} fontSize={{ base: '22px', md: '22px', lg: '40px' }} color='goldenrod' fontWeight={{ base: '600', md: '700' }} textAlign='center'>About Me</Text>
+        <Text textShadow={{base:"1px 1.4px red",sm:"2px 2px red"}}  mt={{ sm: '20%', md: '10%', lg: '15%' }} fontSize={{ base: '22px', md: '22px', lg: '40px' }} color='goldenrod' fontWeight={{ base: '600', md: '700' }} textAlign='center'>About Me</Text>
         <Flex justifyContent={"center"} display={{ base: "column", sm: "column", md: "flex", lg: "flex" }} width="90%" margin="auto" >
           <Box  id="user-detail-intro" style={Theme === 'light' ? light : dark}
             maxW={{ base: '350px', sm: "400px", md: '450px', lg: '600px', xl: '800px' }}
