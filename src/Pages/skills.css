@@ -112,11 +112,11 @@
   transition: width 2s, height 2s, transform 2s;
 }
 .skillsToolsDiv > div:hover {
-  -webkit-transform: rotate(60deg);
-  -moz-transform: rotate(60deg);
-  -ms-transform: rotate(60deg);
-  -o-transform: rotate(60deg);
-  transform: rotate(60deg);
+  -webkit-transform: rotateY(360deg);
+  -moz-transform: rotateY(360deg);
+  -ms-transform: rotateY(360deg);
+  -o-transform: rotateY(360deg);
+  transform: rotateY(360deg);
 }
 .skillsTechnologiesDiv > div {
   -webkit-transition: width 2s, height 2s, transform 2s;

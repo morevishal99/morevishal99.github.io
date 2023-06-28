@@ -16,13 +16,19 @@
   }
   
   .skills-card:hover {
-    transform: scale(1.1);
-    color: #ff8a2e;
-    -moz-transition: all 0.2s ease-in;
-    -o-transition: all 0.2s ease-in;
-    -webkit-transition: all 0.2s ease-in;
-    transition: all 0.2s ease-in;
-  }
+    /*transform: scale(1.1);
+    */color: #ff8a2e;
+    /*-moz-transition: all 0.2s ease-in;
+    *//*-o-transition: all 0.2s ease-in;
+    *//*-webkit-transition: all 0.2s ease-in;
+    *//*transition: all 0.2s ease-in;
+    */border-radius: 50px 10px;
+    box-shadow: rgba(244, 6, 6, 0.24) 7px 3px 8px;
+    -webkit-border-radius: 50px 10px;
+    -moz-border-radius: 50px 10px;
+    -ms-border-radius: 50px 10px;
+    -o-border-radius: 50px 10px;
+}
   
   .skills-card > div {
     width: 150px;
