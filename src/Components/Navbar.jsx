@@ -61,7 +61,7 @@ export const Navbar = ({ ProfileRef, AboutRef, SkillsRef, ProjectsRef, ContactRe
                                     Resume
                                 </a>
                                 {/* <a id="resume-link-2"  href={pdf}  target="_blank" rel="noreferrer"   >
-                                Download Resume .
+                                Download Resume ..
                             </a> */}
                             </Text>
                         </Flex>
