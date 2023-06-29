@@ -4,7 +4,6 @@ import React, { useContext } from "react";
 import Slider from "react-slick";
 import { Box, Image, Text } from "@chakra-ui/react";
 import { AppContext } from "../Context/Theme";
-// import css from "../SkillsImages/css.png"
 import css from "../SkillsImages/css.png"
 import github from "../SkillsImages/github.png"
 import git from "../SkillsImages/git.png"
@@ -19,7 +18,7 @@ import mongo from "../SkillsImages/mongodb.png"
 import redux from "../SkillsImages/redux.png"
 import express from "../SkillsImages/express.png"
 import data from "../db.json";
-import "./skills.css";
+import "./Style/skills.css";
 import TechStack from "./TechStack";
 export const Skills = () => {
     const { Theme } = useContext(AppContext)
@@ -68,20 +67,20 @@ export const Skills = () => {
 
 
     return (
-        <> 
-            <Text textShadow={{base:"1px 1.4px red",sm:"2px 2px red"}} mt={{ sm: '20%', md: '10%', lg: '15%' }} color='goldenrod' fontSize={{ base: '22px', md: '22px', lg: '40px' }} fontWeight={{ base: '600', md: '700' }} textAlign='center' >Skills</Text>
-            <Box className="grad1"  id="skills" w="80%" m='auto' mt={"40px"}>
+        <>
+            <Text textShadow={{ base: "1px 1.4px red", sm: "2px 2px red" }} mt={{ sm: '20%', md: '10%', lg: '15%' }} color='goldenrod' fontSize={{ base: '22px', md: '22px', lg: '40px' }} fontWeight={{ base: '600', md: '700' }} textAlign='center' >Skills</Text>
+            <Box className="grad1" id="skills" w="80%" m='auto' mt={"40px"}>
                 <Slider {...settings} style={Theme === 'light' ? light : dark}>
                     <Box style={{ display: "flex", width: "50px", height: '150px' }} >
                         <Box className="skills-cards" p='20px' borderRadius={5} display='flex' flexDirection="column" justifyContent="center" alignItems="center" backgroundColor='aliceblue' mr={5}  >
-                            <Image  w={{ base: '45px', md: '60px', lg: '80px' }} src={html} />
-                            <Text  color={"grey"} padding="10px" fontSize={"20px"} fontWeight="600">HTML</Text>
+                            <Image w={{ base: '45px', md: '60px', lg: '80px' }} src={html} />
+                            <Text color={"grey"} padding="10px" fontSize={"20px"} fontWeight="600">HTML</Text>
                         </Box>
                     </Box>
                     <Box style={{ display: "flex", width: "50px", height: '150px' }} >
                         <Box className="skills-cards" p='20px' borderRadius={5} display='flex' flexDirection="column" justifyContent="center" alignItems="center" backgroundColor='aliceblue' mr={5}  >
                             <Image className="skills-card-img" w={{ base: '45px', md: '60px', lg: '60px' }} src={css} />
-                            <Text className="skills-card-name"color={"grey"} padding="10px" fontSize={"20px"} fontWeight="600">CSS</Text>
+                            <Text className="skills-card-name" color={"grey"} padding="10px" fontSize={"20px"} fontWeight="600">CSS</Text>
                         </Box>
                     </Box>
                     <Box style={{ display: "flex", width: "50px", height: '150px', gap: "10px" }} >
@@ -154,22 +153,22 @@ export const Skills = () => {
                 </Slider>
             </Box>
 
-<Box >
-      <Box className="skillsWrapper">
-        <h1 className="skills-heading">Languages </h1>
-        <Box className="skillsTechnologiesDiv">
-          {data.language.map((elm) => (
-            <TechStack key={elm.id} {...elm} />
-          ))}
-        </Box>
-        <h1 className="skills-heading">Tools</h1>
-        <Box className="skillsToolsDiv">
-          {data.tools.map((elm) => (
-            <TechStack key={elm.id} {...elm} />
-          ))}
-        </Box>
-      </Box>
-    </Box>
+            <Box >
+                <Box className="skillsWrapper">
+                    <h1 className="skills-heading">Languages </h1>
+                    <Box className="skillsTechnologiesDiv">
+                        {data.language.map((elem) => (
+                            <TechStack key={elem.id} {...elem} />
+                        ))}
+                    </Box>
+                    <h1 className="skills-heading">Tools</h1>
+                    <Box className="skillsToolsDiv">
+                        {data.tools.map((elem) => (
+                            <TechStack key={elem.id} {...elem} />
+                        ))}
+                    </Box>
+                </Box>
+            </Box>
 
         </>
     );
