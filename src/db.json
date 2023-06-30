@@ -93,15 +93,6 @@
       "deployed": "https://youtubeclone-tan.vercel.app/",
       "description": "",
       "techstack": ["React JS", "Chakra UI"]
-    },
-    {
-      "id": 2,
-      "title": "Weather App",
-      "image": "https://user-images.githubusercontent.com/107456969/223466343-8e168199-00cc-470f-ab38-e3fad181164d.png",
-      "github": "https://github.com/morevishal99/Weather-App",
-      "deployed": "https://sage-capybara-34d376.netlify.app/",
-      "description": "A simple weather app where you can see the weather related information  of the city",
-      "techstack": ["React JS", "Chakra UI"]
     }
   ],
   "language": [
