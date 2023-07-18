@@ -46,7 +46,6 @@ const Projectcard = ({ el }) => {
                         <Badge className="project-tech-stack" borderRadius='full' px='2' >
                             TECH STACK
                         </Badge>
-
                         {/* tech stack mapped here */}
                         {el.techstack.map((el) =>
                             <Box display={{ base: "flex", sm: "flex", md: "flex", lg: "flex" }} gridTemplateColumns="repeat(1,1fr)" gap={1}>
