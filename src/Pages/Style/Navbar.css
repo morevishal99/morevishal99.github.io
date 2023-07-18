@@ -1,3 +1,37 @@
-.nav-link:hover{
-text-shadow: 2px 2px red;
+.nav-link:hover {
+  text-shadow: 1px 1px black;
+}
+.section {
+  /* background-color: black; */
+  position: relative;
+  /* background: #222; */
+  overflow: hidden;
+}
+.section > p {
+  /*font-size: 200px;
+  */
+  position: relative;
+  display: block;
+  text-decoration: none;
+  /*color: #fff;
+  */
+  transition: 0s;
+  transition-delay: 0s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.section > p:hover {
+  color:red;
+  transition-delay: 0s;
+}
+.section > p::before {
+   /*content: attr();
+   */position: absolute;
+   top: 50%;
+   left:50%;
+   transform: translate(-50%,-50%);
+   transition:0s ;
+  opacity: 0;
 }

@@ -3,6 +3,7 @@ import React, { useContext } from 'react'
 import { AppContext } from '../Context/Theme';
 import "./Style/style.css"
 import { Tilt } from 'react-tilt'
+
 const Projectcard = ({ el }) => {
     const { Theme } = useContext(AppContext);
     const light = {
@@ -15,6 +16,7 @@ const Projectcard = ({ el }) => {
     }
     const lightc = "#36454f"
     const darkc = '#92c7c7'
+
     const defaultOptions = {
         reverse:        false,  // reverse the tilt direction
         max:            35,     // max tilt rotation (degrees)
@@ -26,6 +28,7 @@ const Projectcard = ({ el }) => {
         reset:          true,    // If the tilt effect has to be reset on exit.
         easing:         "cubic-bezier(.03,.98,.52,.99)",    // Easing on enter/exit.
     }
+
     return (
         <Tilt options={defaultOptions}>
 
@@ -34,7 +37,7 @@ const Projectcard = ({ el }) => {
                {/* image of website */}
                 <Image   w='full' src={el.image} alt="" />
 
-                <Box p='6'>
+                <Box p='6' >
                     <Text color={"cyan.600"} fontFamily={"Georgia"} className="project-title" fontWeight="bold" fontSize={{ base: 'xl', md: '2xl', lg: '3xxl' }}>{el.title}</Text>
                    
                     <Text fontWeight={"600"} color={Theme === 'light' ? lightc : darkc} fontFamily={"Saas"} className="project-description" fontSize={{ base: 'sm', md: 'md', lg: 'lg' }} mb={{ lg: 6 }}>{el.description}</Text>
