@@ -1,7 +1,7 @@
 import { Badge, Box, Flex, Image, Text } from '@chakra-ui/react'
 import React, { useContext } from 'react'
 import { AppContext } from '../Context/Theme';
-import "./Style/style.css"
+import "../Style/style.css"
 import { Tilt } from 'react-tilt'
 
 const Projectcard = ({ el }) => {

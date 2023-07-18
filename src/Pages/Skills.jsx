@@ -18,7 +18,7 @@ import mongo from "../SkillsImages/mongodb.png"
 import redux from "../SkillsImages/redux.png"
 import express from "../SkillsImages/express.png"
 import data from "../db.json";
-import "./Style/skills.css";
+import "../Style/skills.css";
 import TechStack from "./TechStack";
 export const Skills = () => {
     const { Theme } = useContext(AppContext)

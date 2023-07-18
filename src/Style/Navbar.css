@@ -1,0 +1,47 @@
+
+.nav-link:hover {
+  text-shadow: 1px 1px black;
+  background-size: 0 3px ,100px 3px;
+}
+.section {
+  position: relative;
+  overflow: hidden;
+}
+.section > p {
+
+  position: relative;
+  display: block;
+  text-decoration: none;
+  transition: 0s;
+}
+.section > p:hover {
+  color: red;
+  transition-delay: 0s;
+}
+.section > p::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0s;
+  opacity: 0;
+}
+
+.nav-link {
+ 
+  background: linear-gradient(
+      to right,
+      rgba(100, 200, 200, 1),
+      rgba(100, 200, 200, 1)
+    ),
+    linear-gradient(
+      to right,
+      rgba(255, 0, 0, 1),
+      rgba(255, 0, 180, 1),
+      rgba(0, 100, 200, 1)
+    );
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}

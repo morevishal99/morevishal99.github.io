@@ -1,6 +1,7 @@
 import { Box, Image } from "@chakra-ui/react";
 import { Tilt } from "react-tilt";
-import "./Style/techstack.css";
+// import "./Style/techstack.css";
+import "../Style/techstack.css"
 
 function TechStack({ src, title }) {
 

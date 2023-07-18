@@ -7,7 +7,8 @@ import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
 import { BsFillMoonFill, BsFillSunFill } from 'react-icons/bs';
 import { AppContext } from '../Context/Theme';
 // import style from "../Pages/Style/All.module.css"
-import  "../Pages/Style/Navbar.css"
+// import  "../Pages/Style/Navbar.css"
+import "../Style/Navbar.css"
 
 export const Navbar = ({ ProfileRef, AboutRef, SkillsRef, ProjectsRef, ContactRef }) => {
     const { isOpen, onOpen, onClose } = useDisclosure();
@@ -31,7 +32,7 @@ export const Navbar = ({ ProfileRef, AboutRef, SkillsRef, ProjectsRef, ContactRe
     return (
         <>
             <Box id="nav-menu" position='fixed' w='100%' zIndex='100' px={4} style={Theme === 'light' ? light : dark} className='ChackraNavBar' shadow='lg'>
-                <Flex alignItems={'left'} justifyContent={'space-between'} >
+                <Flex alignItems={'left'} justifyContent={'space-between'}z >
                     <IconButton style={Theme === 'light' ? light : dark}
                         size='lg'
                         icon={isOpen ? <CloseIcon /> : <HamburgerIcon fontSize='30px' />}

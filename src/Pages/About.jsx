@@ -14,9 +14,9 @@ export default function About() {
   return (
     <>
       <Box id="about" className="about section">
-        <Text textShadow={{base:"1px 1.4px red",sm:"2px 2px red"}}  mt={{ sm: '20%', md: '10%', lg: '15%' }} fontSize={{ base: '22px', md: '22px', lg: '40px' }} color='goldenrod' fontWeight={{ base: '600', md: '700' }} textAlign='center'>About Me</Text>
+        <Text textShadow={{ base: "1px 1.4px red", sm: "2px 2px red" }} mt={{ sm: '20%', md: '10%', lg: '15%' }} fontSize={{ base: '22px', md: '22px', lg: '40px' }} color='goldenrod' fontWeight={{ base: '600', md: '700' }} textAlign='center'>About Me</Text>
         <Flex justifyContent={"center"} display={{ base: "column", sm: "column", md: "flex", lg: "flex" }} width="90%" margin="auto" >
-          <Box  id="user-detail-intro" style={Theme === 'light' ? light : dark}
+          <Box id="user-detail-intro" style={Theme === 'light' ? light : dark}
             maxW={{ base: '350px', sm: "400px", md: '450px', lg: '600px', xl: '800px' }}
             w={'full'}
             bg={useColorModeValue('white', 'gray.900')}
@@ -33,7 +33,7 @@ export default function About() {
               with the company.
             </Text>
 
-            <Stack align={'center'}  direction={{ base: 'column',sm:"column", md: "row", lg: "row" }} mt={6}>
+            <Stack align={'center'} direction={{ base: 'column', sm: "column", md: "row", lg: "row" }} mt={6}>
               <Text
                 px={2}
                 py={1}
@@ -91,7 +91,7 @@ export default function About() {
 
           <Box  >
 
-          <Image  margin={"auto"}src="https://camo.githubusercontent.com/101c98f67298425e9875ecfac1c25efccaf3c966db04609cc4f4e92d6bd12c32/68747470733a2f2f632e74656e6f722e636f6d2f4e4f594633663832625f6741414141432f70726f6772616d6d65722e676966" alt="coding image" />
+            <Image margin={"auto"} src="https://camo.githubusercontent.com/101c98f67298425e9875ecfac1c25efccaf3c966db04609cc4f4e92d6bd12c32/68747470733a2f2f632e74656e6f722e636f6d2f4e4f594633663832625f6741414141432f70726f6772616d6d65722e676966" alt="coding image" />
           </Box>
         </Flex>
       </Box>

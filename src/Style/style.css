@@ -1,7 +1,6 @@
 .project-card {
   animation-name: example;
   animation-duration: 10s;
-  /* transition:linear ease-in-out 2s ; */
   animation-iteration-count: infinite;
 }
 
@@ -19,5 +18,3 @@
     background-color: green;
   }
 }
-
-

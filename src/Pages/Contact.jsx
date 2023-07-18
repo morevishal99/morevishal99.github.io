@@ -6,7 +6,7 @@ import { useContext } from "react";
 import { AppContext } from "../Context/Theme";
 // import style from "./Style/All.module.css"
 // import "./style/Contact.css"
-import "./Style/Contact.css"
+import "../Style/Contact.css"
 export default function Contact() {
   const { Theme } = useContext(AppContext);
   const light = {
